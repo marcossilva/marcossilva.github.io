@@ -1,5 +1,5 @@
 current directory: /home/marcos/marcossilva.github.io/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
-/usr/bin/ruby2.3 -r ./siteconf20190321-25585-1a8mucj.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20190321-8113-1obogd.rb extconf.rb
 creating Makefile
 
 current directory: /home/marcos/marcossilva.github.io/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
@@ -57,4 +57,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/marcos/marcossilva.github.io/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20190321-25585-wgszsd/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20190321-8113-10djg12/commonmarker

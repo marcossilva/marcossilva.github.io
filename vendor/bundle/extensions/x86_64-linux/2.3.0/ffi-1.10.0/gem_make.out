@@ -1,5 +1,5 @@
 current directory: /home/marcos/marcossilva.github.io/vendor/bundle/gems/ffi-1.10.0/ext/ffi_c
-/usr/bin/ruby2.3 -r ./siteconf20190321-9348-azoyvc.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20190321-4598-11hhns3.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -161,4 +161,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20190321-9348-8d8j4o
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20190321-4598-120p6i8
