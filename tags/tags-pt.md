@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Tag: python"
-tag: python
-ref: tag-python
+
+ref: tags
 lang: pt
 ---
 
