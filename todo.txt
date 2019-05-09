@@ -8,3 +8,5 @@ https://shopify.github.io/liquid/
 
 
 Adicionar description para todas as páginas e posts. Colocar no sitemap e no tag manager
+
+https://www.readmodwrite.com/2019-01-18-jekyll-seo-tags/
