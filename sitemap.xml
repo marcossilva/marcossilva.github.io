@@ -1,35 +1,28 @@
 ---
-layout: null
+layout: 
 ref: sitemap
-permalink: /sitemap.xml
+permalink: /sitemap_index.xml
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-{% for post in site.posts %}
-{% if post.id contains "404" %}{% else %}
-  <url>
-    <loc>{{site.url}}{{ post.url }}</loc>
-    {% assign versions=site.posts | where:"ref", post.ref %}
-    {% for version in versions %}
-    <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
-    {% endfor %}
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-{% endif %}
-{% endfor %}
-{% for page in site.pages %}
-{% unless page.sitemap.exclude == "yes" or page.name contains ".xml" or page.url contains ".css" or page.dir contains "assets" %}
-  {% if page.id contains "404" %}{% else %}
-    <url>
-      <loc>{{site.url}}{{ page.url }}</loc>
-      {% assign versions=site.pages | where:"ref", page.ref %}
-      {% for version in versions %}<xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />{% endfor %}
-      <changefreq>weekly</changefreq>
-    </url>
-  {% endif %}
-{% endunless %}
-{% endfor %}
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"   
+>
+{% for post in site.posts %}{% if post.id contains "404" %}{% else %}<url>
+  <loc>{{site.url}}{{ post.url }}</loc>{% assign versions=site.posts | where:"ref", post.ref %}
+  {% for version in versions %}<xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />{% endfor %}
+  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  <changefreq>weekly</changefreq>
+</url>{% endif %}
+{% endfor %}{% for page in site.pages %}{% unless page.sitemap.exclude == "yes" or page.name contains ".xml" or page.url contains ".css" or page.dir contains "assets" %}{% if page.id contains "404" %}{% else %}
+<url>
+  <loc>{{site.url}}{{ page.url }}</loc>{% assign versions=site.pages | where:"ref", page.ref %}
+  {% for version in versions %}<xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />{% endfor %}
+  <changefreq>weekly</changefreq>
+</url>{% endif %}{% endunless %}{% endfor %}
 </urlset>
 
+Galaxy M, Galaxy M10, Galaxy M20, Galaxy M30, Samsung Galaxy M, novo Samsung Galaxy M, especificações Galaxy M, galaxy m ficha técnica, novo Galaxy M, Galaxy M preços, galaxy m10 preço, galaxy m20 preço, galaxy m30 preços
