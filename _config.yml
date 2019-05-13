@@ -18,6 +18,9 @@ index:
 tags_dir:
   en: /en/tags
   pt: /tags/tags-pt.html
+about_dir:
+  en: /en/about-me
+  pt: /sobre-mim
 feed:
   en: /feed-en.xml
   pt: /feed-pt.xml
