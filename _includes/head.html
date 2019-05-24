@@ -8,5 +8,6 @@
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">{% if site.tags != "" %}{% include collecttags.html %}{% endif %}{% seo %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">{% if site.tags != "" %}{% include collecttags.html %}{% endif %}
+  <title>{% if page.title != None %}{{ page.title | append: ' | ' | append:site.title }}{% else %}{{ site.title }}{% endif %}</title>
 </head>
