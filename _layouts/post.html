@@ -1,11 +1,21 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.lastedit != None %} <small style="float:right;">Last Edit:<time datetime="{{ page.lastedit | date_to_xmlschema }}" itemprop="dateModified">{{ page.lastedit | date: "%b %-d, %Y" }}</time></small>{% endif %}{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% if page.lastedit != None %} 
+        <small style="float:right;">Last Edit:<time datetime="{{ page.lastedit | date_to_xmlschema }}">{{ page.lastedit | date: "%b %-d, %Y" }}</time></small>
+      {% endif %}
+
+      {% if page.author %}
+         • <span>{{ page.author }}</span>
+      {% else %}
+        • <a href="{{ site.about_dir[page.lang] | prepend: site.baseurl}}">{{ site.author }}</a>
+      {% endif %}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -19,3 +29,31 @@ layout: default
 		{% for tag in page.tags %} <a href="{{ site.baseurl }}/{{ site.tags_dir[page.lang] }}/{{ tag }}" class="tags">#{{ tag }}</a> {% endfor %}
 	</small>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | prepend: site.baseurl }}"
+  },
+  "headline": "{{ page.title }}",
+  "image": "{% if page.image != None %}{{ page.image }}{% else %}https://raw.githubusercontent.com/marcossilva/marcossilva.github.io/master/assets/logo.png{% endif %}",
+  "dateCreated": "{{ page.datePublished }}",
+  "datePublished": "{{ page.datePublished }}",
+  "dateModified": "{{ page.dateModified }}",
+  "author": {
+    {% include person-schema.html %}
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "XAI - eXplainable AI",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://raw.githubusercontent.com/marcossilva/marcossilva.github.io/master/assets/logo.png"
+    }
+  },
+  "description": "{{ page.description }}"
+}
+</script>
