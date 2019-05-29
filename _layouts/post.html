@@ -27,7 +27,6 @@ layout: default
 <div>
 	<small>
 		{% for tag in page.tags %} <a href="{{ site.tags_dir[page.lang] | append: "#" | append: tag }}" class="tags">#{{ tag }}</a> {% endfor %}
-     append: / site.tags_dir[page.lang] }}#{{ tag }}
 	</small>
 </div>
 
@@ -35,18 +34,13 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | prepend: site.baseurl }}"
-  },
+  "mainEntityOfPage" : {% include schema-page.html %},
   "headline": "{{ page.title }}",
-  "image": "{% if page.image != None %}{{ page.image }}{% else %}https://raw.githubusercontent.com/marcossilva/marcossilva.github.io/master/assets/logo.png{% endif %}",
+  "image": "{% if page.image != None %}{{ page.image | prepend : site.baseurl | prepend: site.url }}{% else %}https://raw.githubusercontent.com/marcossilva/marcossilva.github.io/master/assets/logo.png{% endif %}",
   "dateCreated": "{{ page.datePublished }}",
   "datePublished": "{{ page.datePublished }}",
   "dateModified": "{{ page.dateModified }}",
-  "author": {
-    {% include person-schema.html %}
-  },
+  "author": {% include schema-person.html %},
    "publisher": {
     "@type": "Organization",
     "name": "XAI - eXplainable AI",

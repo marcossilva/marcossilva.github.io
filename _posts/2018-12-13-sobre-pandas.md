@@ -8,6 +8,7 @@ tags: python pandas
 datePublished: 2018-12-13T08:00:00-03:00
 dateModified: 2018-12-13T08:00:00-03:00
 description: Você sabe o que é Pandas? Pandas é uma das mais amplamente usadas bibliotecas de python para análise de dados. Se você está entrando na área ou se você já é da área mais ainda não conhece é uma boa dar uma olhada.
+image: /assets/pandas.jpg
 ---
 
 Você já ouviu falar em Pandas? Não, não é do animal fofinho que come bambu que estou falando. Pandas é um biblioteca bastante popular em python que auxilia muito a vida de quem faz análise de dados. De uma maneira abstrata você pode pensar no pandas como um Excel otimizado.
