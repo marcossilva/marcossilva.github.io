@@ -1,8 +1,18 @@
 ---
 layout: page
 ---
+{% assign sorted_tags = site.tags | sort %}
+<div>
+  {% for tag in sorted_tags %}
+    {% assign tagname = tag[0] %}
+    {% assign post_count = site.tags[tagname] | where: "lang", page.lang | size %}
+    {% if post_count > 0 %}
+    <a href="{{ "#" | append: tagname }}"><code><nobr>{{ tagname }}</nobr></code></a>
+    {% endif %}
+  {% endfor %}
+</div>
+<br><hr><br>
 <ul>
-  {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
     {% assign tagname = tag[0] %}
     {% assign post_count = site.tags[tagname] | where: "lang", page.lang | size %}
