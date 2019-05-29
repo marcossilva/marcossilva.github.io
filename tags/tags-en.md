@@ -1,16 +1,7 @@
 ---
-layout: page
-title: "All tags"
-
+layout: tagpages
+title: Tags
+permalink: /en/tags
 ref: tags
 lang: en
 ---
-
-<div class="post">
-<ul>
-{% for post in site.tags %}
-  {{ post | first }}
-{% endfor %}
-</ul>
-</div>
-<hr>

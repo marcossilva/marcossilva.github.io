@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://mleal.ml/sitemap.xml
+Sitemap: https://mleal.ml/sitemap_backup.xml
