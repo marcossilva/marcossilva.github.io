@@ -1,0 +1,6 @@
+{
+	"@type": "WebPage",
+	"@id": "{{ page.url | prepend : site.baseurl | prepend: site.url }}",
+	{% if page.lastReviewed =! None %}"lastReviewed" : "{{ page.lastReviewed }}",{% endif %}
+	"specialty" : ["machine learning", "aprendizado de máquina"]
+}
