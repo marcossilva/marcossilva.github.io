@@ -16,6 +16,7 @@ layout: default
 
 <div>
 	<small>
-		{% for tag in page.tags %} <a href="{{ site.baseurl }}/{{ site.tags_dir[page.lang] }}/{{ tag }}" class="tags">#{{ tag }}</a> {% endfor %}
+		{% for tag in page.tags %} <a href="{{ site.tags_dir[page.lang] | append: "#" | append: tag }}" class="tags">#{{ tag }}</a> {% endfor %}
+     append: / site.tags_dir[page.lang] }}#{{ tag }}
 	</small>
 </div>

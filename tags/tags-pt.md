@@ -1,18 +1,7 @@
 ---
-layout: page
-title: "Tag: python"
-
+layout: tagpages
+title: Tags
+permalink: /tags
 ref: tags
 lang: pt
 ---
-
-<div class="post">
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
-</div>
-<hr>
