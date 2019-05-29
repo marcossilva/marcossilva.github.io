@@ -23,7 +23,7 @@ layout: page
         {% for post in site.tags[tagname] %}
         {% if post.lang == page.lang %}
         <li>
-            <h3>{{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h3>{% if page.lang == 'en' %}{{ post.date | date: "%B %d, %Y" }}{% else %}{{ post.date | date: "%d/%m/%Y" }}{% endif %}: <a href="{{ post.url }}">{{ post.title }}</a></h3>
         </li>
         {% endif %}
         {% endfor %}
