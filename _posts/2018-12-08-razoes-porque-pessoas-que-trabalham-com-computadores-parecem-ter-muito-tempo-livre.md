@@ -18,7 +18,7 @@ tags: hq
 </figure>
 
 
-Quase todos os campos de TI tem problemas com computador. No caso de Aprendizado de Máquina o problema era o treinamento dos algoritmos haha. Ainda bem que atualmente temos várias soluções pra fazer isso remotamente com recursos escaláveis!
+Quase todos os campos de TI tem problemas com computador. No caso de Aprendizado de Máquina o problema era o treinamento dos algoritmos haha. Ainda bem que atualmente temos várias soluções para fazer isso remotamente com recursos escaláveis!
 
 A AWS, a Google e a Microsoft tem seus próprios serviços para oferecer tanto para treino de modelos de aprendizado quanto para deploy dos mesmos. Um problema frequente com esses serviços gerenciados é a falta de controle total dos serviços pois cada qual tem suas limitações.
 

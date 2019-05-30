@@ -13,7 +13,7 @@ Recentemente eu estava fazendo um trabalho onde precsava classificar diversos pr
 ## 1a Abordagem: Modelos Clássicos
 Uma primeira soluçao foi montar um classificador a partir desses dados mas sem esperar altas acurácias. Um dos grandes problemas em trabalhar com texto é a falta de estruturação dos dados. Claro que existem técnicas como CountVectorizer, TF-IDF . Tendo em vista a grande quantidade de produtos eu era incapaz de cortar palavras que aparecessem com uma frequência muito baixa pois esses seriam ótimos indicadores de produtos raros. Cortar termos com frequência muito alta (stop words) também é ruim pois ocasionalmente determinam modelos (e.g. Moto E).
 
-De cara as vetorizações clássicas já eram problemáticas. Aplicando ambas nos meus dados obtive vetores de ~500k features. Tentei ainda cortar valores numéricos ou reduzir a dimensionalidade desse vetor com um Autoencoder mas não tive bons resultados. Independente do modelo que eu usasse pra classificar esses vetores os resultados eram ruins então parti para a 2a abordagem.
+De cara as vetorizações clássicas já eram problemáticas. Aplicando ambas nos meus dados obtive vetores de ~500k features. Tentei ainda cortar valores numéricos ou reduzir a dimensionalidade desse vetor com um Autoencoder mas não tive bons resultados. Independente do modelo que eu usasse para classificar esses vetores os resultados eram ruins então parti para a 2a abordagem.
 
 ## 2a Abordagem: Modelos Neurais
 ### Palavras como Tokens
