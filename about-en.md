@@ -22,3 +22,7 @@ I have dynamic interests but most of the cross the related themes below:
 	<p align="center"><img src="/assets/profile2.png" align="center"></p>
 	<p align="center"><figcaption align="center">Me in Chicago</figcaption></p>
 </figure>
+
+My <a href='https://mj.ucw.cz/geek/' rel='nofollow'>geek code</a> is below for those who would like to understand more of me :)
+
+<code> GCS d-@ s:- a-- C++++$ UL+++$>++++ P? L++ !E W++$ !N !o K--? w !O !M !V? PS++(+++) PE(+) Y+(--) !PGP- t !5 !X R* tv- b+ DI++ !D G e+++>++++ h-->++ r y++**>++++ </code>

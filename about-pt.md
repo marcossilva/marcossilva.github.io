@@ -22,3 +22,7 @@ Eu tenho interesses dinâmicos e variáveis, mas a maioria pincela os temas rela
 	<p align="center"><img src="/assets/profile2.png" align="center"></p>
 	<p align="center"><figcaption align="center">Eu em Chicago</figcaption></p>
 </figure>
+
+Meu <a href='https://mj.ucw.cz/geek/' rel='nofollow'>código geek</a> está abaixo para aqueles que quiserem me entender melhor :)
+
+<code> GCS d-@ s:- a-- C++++$ UL+++$>++++ P? L++ !E W++$ !N !o K--? w !O !M !V? PS++(+++) PE(+) Y+(--) !PGP- t !5 !X R* tv- b+ DI++ !D G e+++>++++ h-->++ r y++**>++++ </code>
