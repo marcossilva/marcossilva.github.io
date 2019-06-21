@@ -14,7 +14,7 @@ layout: default
       {% endif %}
       {{ my_date | date: "%b %-d, %Y - %H:%m" }}</time>
       {% if page.dateModified != None and page.dateModified != page.datePublished %} 
-        <small style="float:right;">Last Edit:<time datetime="{{ page.lastedit | date_to_xmlschema }}">{{ page.dateModified | date: "%b %-d, %Y - %H:%m" }}</time></small>
+        <span style="float:right;">Last Edit:<time datetime="{{ page.lastedit | date_to_xmlschema }}">{{ page.dateModified | date: "%b %-d, %Y - %H:%m" }}</time></span>
       {% endif %}
 
       {% if page.author %}
