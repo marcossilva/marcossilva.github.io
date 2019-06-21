@@ -1,15 +1,1 @@
-Terminar de fazer nuvem de tags
-
-http://longqian.me/2017/02/09/github-jekyll-tag/
-https://dev.to/rpalo/jekyll-tags-the-easy-way
-
-https://jekyllrb.com/docs/front-matter/
-https://shopify.github.io/liquid/
-
-
-Adicionar description para todas as páginas e posts. Colocar no sitemap e no tag manager
-
-https://www.readmodwrite.com/2019-01-18-jekyll-seo-tags/
-
-- Adicionar tags de Schema manualmente
-- AMP template
+https://support.google.com/webmasters/answer/35624#1
