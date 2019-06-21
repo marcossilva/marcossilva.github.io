@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning Index Notes"
 ref: deep-learning-index
 lang: en
-categories: 
+categories: en
 tags: deep-learning 
 dateModified: 2019-06-20T19:52:00-03:00
 ---

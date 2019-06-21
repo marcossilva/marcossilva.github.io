@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning Lecture 2 Notes"
 ref: deep-learning-lecture-2
 lang: en
-categories: 
+categories: en
 tags: deep-learning lecture-notes
 datePublished: 2019-06-20T23:00:00-03:00
 dateModified: 2019-06-20T23:00:00-03:00
@@ -43,19 +43,19 @@ All these bolded pointed things can change in a Machine Learning problem. Apart 
 - How choose resolution of the input image?
 	- Compare to human performance. Print many resolutions and give to humans and establish a baseline performance for each resolution
 
-## Face Verification (<a href="https://youtu.be/AwQHqWyHRpU?t=1343">22:23</a>)
+## Face Verification (<a href="https://youtu.be/AwQHqWyHRpU?t=1343" rel='nofollow'>22:23</a>)
 - Validate student IDs to a camera captured image
 - How big the images should be? Over 400px preferably. Why? Because the task is much more complex than the previous one. 
 - Architecture: Siamese Network? Both inputs are encoded using a network and both encodings are subtracted.
 - Loss function should focus on triplets: the available correct pair to be minimized and a incorrect pair. It's also important to note that there is an alpha term in the loss because it avoids learning the mapping to 0 which would lead to no error (and no learning at all)
 
-## Face Recognition (<a href="https://youtu.be/AwQHqWyHRpU?t=2577">42:55</a>)
+## Face Recognition (<a href="https://youtu.be/AwQHqWyHRpU?t=2577" rel='nofollow'>42:55</a>)
 - There's no validation anymore. The camera identifies you.
 - Face Recognition: K-Nearest Neighbors
 - Face Clustering: K-Means
 - Maybe we need to detect the face first? Another separated module.
 
-## Art Generation (<a href="https://youtu.be/AwQHqWyHRpU?t=2915">48:35</a>)
+## Art Generation (<a href="https://youtu.be/AwQHqWyHRpU?t=2915" rel='nofollow'>48:35</a>)
 - Given a picture, make it look beautiful
 - Which data? Beautiful is a super personal and fluid concept. The input data can be, therefore, any image
 - The **input** can be a pair of images with a given image that we want to apply the style and a given image that we want to extract the style from.
@@ -66,7 +66,7 @@ All these bolded pointed things can change in a Machine Learning problem. Apart 
 - The downsize of a model that can output **any** style is that for each image generated it's necessary to run the image multiple times until the loss is small enough given the number of iterations. Another approach would be a network that output a given style. This approach would be much faster to output a single style but wouldn't be able to generate multiple styles.
 - The approach to multiple styles would be feed a random noise as input and compute the loss until it is small enough meaning that both content and style have been correctly transfered.
 
-## Trigger Word Detection (<a href="https://youtu.be/AwQHqWyHRpU?t=3807">1:03:27</a>)
+## Trigger Word Detection (<a href="https://youtu.be/AwQHqWyHRpU?t=3807" rel='nofollow'>1:03:27</a>)
 - Given a 10s audio speech, detect the word 'activate'
 - 'Resolution' (Sampling rate) of audio? the best way to decide this is with human baseline like the images test.
 - Labeling schema for time steps x for whole audio. Using a single output is much harder for the algorithm because much of the input is actually not the word being detected. The timestep labeling is much easier but generates an unbalanced dataset. A hack to balance it back is to map not just the time step with the word being detected but its neighbors as well.

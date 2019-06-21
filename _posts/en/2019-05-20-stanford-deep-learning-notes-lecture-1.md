@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning Lecture 1 Notes"
 ref: deep-learning-lecture-1
 lang: en
-categories: 
+categories: en
 tags: deep-learning lecture-notes
 ---
 ## Lecture 1
