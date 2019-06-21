@@ -1,3 +1,4 @@
+$grey-color: #545954;
 /**
  * Reset some basic elements
  */
@@ -91,7 +92,6 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
     text-decoration: none;
 
     &:visited {
@@ -201,6 +201,11 @@ pre {
 
         path {
             fill: $grey-color;
+        }
+        @include media-query($on-laptop) {
+            width: 48px;
+            height: 48px;
+            padding: 5px;
         }
     }
 }
