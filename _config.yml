@@ -41,10 +41,11 @@ github_username:  marcossilva
 linkedin_username: marcospedroleal
 instagram_username: marcospedroleal
 facebook_username: marcospedroleal
+telegram_username: mleal
 
 # Build settings
 markdown: kramdown
-remote_theme: lafronzt/AMP-Minimal
+theme: minima
 
 plugins:
   - jekyll-sitemap
