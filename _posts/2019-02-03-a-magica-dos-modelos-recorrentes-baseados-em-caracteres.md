@@ -22,10 +22,7 @@ Eu já conhecia alguns modelos neurais para problemas de NLP famosos como o word
 ### Caracteres como Tokens
 Uma outra alternativa possível foi ao invés de se usar a palavra inteira como token usar caracteres. Pode parecer estranho dado que o princípio da técnica original era capturar semântica. Mas pense nesse modelo como um jogo da forca de uma frase qualquer. Você tem acesso às letras próximas mas não sabe ainda qual é a letra onde está. Na imagem abaixo podemos ver um jogo da forca com a palavra livraria. Então se o modelo usasse apenas as letras vizinhas deveria tentar prever o ‘i’ faltante da 2a posição a partir das letras ‘l’ e ‘v’.
 
-<figure>
-	<p align="center"><img src="/assets/hangman.png" title="Jogo da Forca" alt="Jogo da Forca" align="center"></p>
-	<p align="center"><figcaption align="center">Jogo da Forca</figcaption></p>
-</figure>
+{% include figure.html filename="hangman" extension="jpg" caption="Jogo da Forca" title="Jogo da Forca" alt="Jogo da Forca" %}
 
 Daí temos um cenário mais promissor na quantidade de tokens: caímos de ~500k palavras únicas para ~200 caracteres únicos (contando caracteres acentuado, especiais, números, etc). Isso facilita muito o modelo a criar representações boas para as letras mesmo usando as mesmas técnicas de convolução 1D do modelo anterior. Nesse cenário a convolução 1D representaria o tamanho da janela lateral responsável por ajudar a prever a letra faltante. Esse modelo superou todos os anteriores em performance, velocidade de treino e acurácia na resposta final.
 

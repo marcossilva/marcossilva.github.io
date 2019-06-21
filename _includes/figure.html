@@ -1,0 +1,10 @@
+<figure>
+	<p align="center">
+		<picture align="center">
+		  <source srcset="/assets/{{  include.filename  }}.webp" type="image/webp">
+		  <source srcset="/assets/{{  include.filename  }}.{{  include.extension  }}" type="image/{{  include.extension  }}"> 
+		  <img src="/assets/{{  include.filename  }}.{{  include.extension  }}" {% if include.title != None %}title="{{  include.title  }}"{% endif %} {% if include.alt != None %}alt="{{  include.alt  }}"{% endif %} align="center">
+		</picture>
+	</p>
+	{% if include.caption != None %}<p align="center"><figcaption align="center">{{  include.caption  }}</figcaption></p>{% endif %}
+</figure>

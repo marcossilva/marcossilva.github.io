@@ -15,16 +15,7 @@ Machine Learning can be taught as learning an approximate function that maps an 
 
 All these bolded pointed things can change in a Machine Learning problem. Apart from all those you could also change the **activation functions** used, the **optimizer** and many **hyperparameters**.
 
-<figure>
-	<p align="center">
-		<picture align="center">
-		  <source srcset="/assets/learning-process.webp" type="image/webp">
-		  <source srcset="/assets/learning-process.png" type="image/png"> 
-		  <img src="/assets/learning-process.png" title="Learning Process on Machine Learning" alt="specific things you could change in a machine learning pipeline" align="center">
-		</picture>
-	</p>
-	<p align="center"><figcaption align="center">Things you could change and wrangle in a machine learning problem</figcaption></p>
-</figure>
+{% include figure.html filename="learning-process" extension="png" alt="specific things you could change in a machine learning pipeline" title="Learning Process on Machine Learning" caption="Things you could change and wrangle in a machine learning problem" %}
 
 * Logistic Regression with single output (<a href="https://youtu.be/AwQHqWyHRpU?t=295" rel="nofollow">5:00</a>)
 * Logistic Regression with multiple output (<a href="https://youtu.be/AwQHqWyHRpU?t=341" rel="nofollow">5:40</a>)

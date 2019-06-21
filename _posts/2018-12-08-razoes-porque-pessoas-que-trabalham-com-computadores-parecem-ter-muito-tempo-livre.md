@@ -6,16 +6,8 @@ lang: pt
 categories: 
 tags: hq
 ---
-
-<figure>
-	<p align="center"><img src="/assets/hq1.jpg" align="center"></p>
-	<p align="center"><figcaption align="center">https://www.reddit.com/r/ProgrammerHumor/comments/31vkjr/reasons_why_people_who_work_with_computers_seem/</figcaption></p>
-</figure>
-
-<figure>
-	<p align="center"><img src="/assets/hq2.png" align="center"></p>
-	<p align="center"><figcaption align="center">https://xkcd.com/303/</figcaption></p>
-</figure>
+{% include figure.html filename="hq1" extension="jpg" caption="https://www.reddit.com/r/ProgrammerHumor/comments/31vkjr/reasons_why_people_who_work_with_computers_seem/" %}
+{% include figure.html filename="hq2" extension="png" caption="https://xkcd.com/303/" %}
 
 
 Quase todos os campos de TI tem problemas com computador. No caso de Aprendizado de Máquina o problema era o treinamento dos algoritmos haha. Ainda bem que atualmente temos várias soluções para fazer isso remotamente com recursos escaláveis!

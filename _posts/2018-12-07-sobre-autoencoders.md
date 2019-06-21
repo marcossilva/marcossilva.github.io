@@ -28,7 +28,4 @@ para quem ficou interessado em saber mais seguem uns links com mais informaçõe
 <https://blog.keras.io/building-autoencoders-in-keras.html>
 <http://dkopczyk.quantee.co.uk/dae-part1/>
 
-<figure>
-	<p align="center"><img src="/assets/autoencoders.jpg" title="Representação de um autoencoder" alt="Representação de um autoencoder" align="center"></p>
-	<p align="center"><figcaption align="center">Representação de um autoencoder</figcaption></p>
-</figure>
+{% include figure.html filename="autoencoders" extension="jpg" alt="Representação de um autoencoder" title="Representação de um autoencoder" caption="Representação de um autoencoder" %}

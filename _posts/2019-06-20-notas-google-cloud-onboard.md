@@ -10,16 +10,7 @@ dateModified: 2019-06-20T17:52:00-03:00
 description: Nesse post eu descrevo os tópicos principais que anotei durante a aprensetação do Google Cloud OnBoard
 image: /assets/google-cloud.jpg
 ---
-<figure>
-	<p align="center">
-		<picture align="center">
-		  <source srcset="/assets/google-cloud.webp" type="image/webp">
-		  <source srcset="/assets/google-cloud.jpg" type="image/jpeg"> 
-		  <img src="/assets/google-cloud.jpg" title="Google Cloud Logo" alt="logo nuvem do google cloud">
-		</picture>
-	</p>
-	<p align="center"><figcaption align="center">GCP - Muitas oportunidades dentro de uma só plataforma</figcaption></p>
-</figure>
+{% include figure.html filename="google-cloud" extension="jpg" alt="logo nuvem do google cloud" title="Google Cloud Logo" caption="GCP - Muitas oportunidades dentro de uma só plataforma" %}
 
 Participei remotamente nessa última 3a (18/06/2019) da apresentação do Google OnBoard e fiz várias anotações por alto das inúmeras demonstrações e do enorme potencial que as ferramentas do Google podem ajudar a trazer para o negócio. Abaixo eu comento cronológicamente os tópicos que foram discutidos no evento e pontuo aqui e ali os respectivos momentos do talk no <a href='https://youtu.be/26Dewxxq1-0' rel='nofollow'>vídeo disponível no youtube.</a>Esse foi a 2a parte do evento mais focada na parte técnica de ferramental, Machine Learning e AI que é exatamente a parte que eu tenho maior interesse.
 

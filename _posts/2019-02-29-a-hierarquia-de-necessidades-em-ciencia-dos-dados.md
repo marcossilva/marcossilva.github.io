@@ -13,4 +13,4 @@ Muitas vezes dentro da empresa vemos vários times com diferentes esforços para
 
 Devemos fomentar sim a análise constante e obtenção de métricas para garantir os resultados da empresa. Esse esforço deve ser, no entanto, em conjunto e não em direções diferentes. Ainda temos na empresa diversas fontes de dados e diversos grupos com expertises e intuitos diferentes. Mas a criação de padrões de processos de coleta e processamento de dados, armazenamento, compressão, limpeza de ruídos... tudo isso facilita a obtenção do produto final: seja uma métrica, uma análise ou a correção de um problema apontado pelos dados.
 
-![Pirâmide de Necessidades de Ciência de Dados](/assets/hierarchy_of_needs.jpg "Pirâmide de Necessidades de Ciência de Dados")
+{% include figure.html filename="hierarchy_of_needs" extension="jpg" caption="Pirâmide de Necessidades de Ciência de Dados" %}
