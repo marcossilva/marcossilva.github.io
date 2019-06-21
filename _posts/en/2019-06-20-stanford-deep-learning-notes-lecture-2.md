@@ -16,18 +16,24 @@ Machine Learning can be taught as learning an approximate function that maps an 
 All these bolded pointed things can change in a Machine Learning problem. Apart from all those you could also change the **activation functions** used, the **optimizer** and many **hyperparameters**.
 
 <figure>
-	<p align="center"><img src="/assets/learning-process.png" title="Learning Process on Machine Learning" alt="specific things you could change in a machine learning pipeline" align="center"></p>
+	<p align="center">
+		<picture align="center">
+		  <source srcset="/assets/learning-process.webp" type="image/webp">
+		  <source srcset="/assets/learning-process.png" type="image/png"> 
+		  <img src="/assets/learning-process.png" title="Learning Process on Machine Learning" alt="specific things you could change in a machine learning pipeline" align="center">
+		</picture>
+	</p>
 	<p align="center"><figcaption align="center">Things you could change and wrangle in a machine learning problem</figcaption></p>
 </figure>
 
 * Logistic Regression with single output (<a href="https://youtu.be/AwQHqWyHRpU?t=295" rel="nofollow">5:00</a>)
 * Logistic Regression with multiple output (<a href="https://youtu.be/AwQHqWyHRpU?t=341" rel="nofollow">5:40</a>)
-* Labeling data for multi class problems is important (<a href="https://youtu.be/AwQHqWyHRpU?t=382">6:22</a>)
+* Labeling data for multi class problems is important (<a href="https://youtu.be/AwQHqWyHRpU?t=382" rel='nofollow'>6:22</a>)
 	* One-hot encoding - A vector with only one value marked as one and all the others as zero. Can lead to really sparse vectors. Works very well with a single classification and not multi classification in the given input.
 	* Label encoding - Numerical encoding to the input. Turn the input into sequential data
-* Shallow network 'understanding' of the input given different depth (<a href="https://youtu.be/AwQHqWyHRpU?t=615">10:15</a>)
+* Shallow network 'understanding' of the input given different depth (<a href="https://youtu.be/AwQHqWyHRpU?t=615" rel='nofollow'>10:15</a>)
 
-## Day 'n' Night Detector(<a href="https://youtu.be/AwQHqWyHRpU?t=763">12:40</a>)
+## Day 'n' Night Detector(<a href="https://youtu.be/AwQHqWyHRpU?t=763" rel='nofollow'>12:40</a>)
 - Classify if a given image is a day image or a night image
 - How decide how many images? 
 	- 1st rule of thumb: use complexity. Complex tasks need more data. 

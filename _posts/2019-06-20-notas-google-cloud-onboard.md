@@ -10,9 +10,14 @@ dateModified: 2019-06-20T17:52:00-03:00
 description: Nesse post eu descrevo os tópicos principais que anotei durante a aprensetação do Google Cloud OnBoard
 image: /assets/google-cloud.jpg
 ---
-
 <figure>
-	<p align="center"><img src="/assets/google-cloud.jpg" title="Google Cloud Logo" alt="logo nuvem do google cloud" align="center"></p>
+	<p align="center">
+		<picture align="center">
+		  <source srcset="/assets/google-cloud.webp" type="image/webp">
+		  <source srcset="/assets/google-cloud.jpg" type="image/jpeg"> 
+		  <img src="/assets/google-cloud.jpg" title="Google Cloud Logo" alt="logo nuvem do google cloud">
+		</picture>
+	</p>
 	<p align="center"><figcaption align="center">GCP - Muitas oportunidades dentro de uma só plataforma</figcaption></p>
 </figure>
 
