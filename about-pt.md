@@ -18,10 +18,8 @@ Eu tenho interesses dinâmicos e variáveis, mas a maioria pincela os temas rela
 * Camadas de Atenção
 * Datavis e construção de *dashboards*
 
-<figure>
-	<p align="center"><img src="/assets/profile2.png" align="center"></p>
-	<p align="center"><figcaption align="center">Eu em Chicago</figcaption></p>
-</figure>
+
+{% include figure.html filename="profile2" extension="png" caption="Eu em Chicago" %}
 
 Meu <a href='https://mj.ucw.cz/geek/' rel='nofollow'>código geek</a> está abaixo para aqueles que quiserem me entender melhor :)
 

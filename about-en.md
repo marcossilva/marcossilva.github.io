@@ -18,10 +18,7 @@ I have dynamic interests but most of the cross the related themes below:
 * Activation Layers 
 * Datavis and dashboard building
 
-<figure>
-	<p align="center"><img src="/assets/profile2.png" align="center"></p>
-	<p align="center"><figcaption align="center">Me in Chicago</figcaption></p>
-</figure>
+{% include figure.html filename="profile2" extension="png" caption="Eu em Chicago" %}
 
 My <a href='https://mj.ucw.cz/geek/' rel='nofollow'>geek code</a> is below for those who would like to understand more of me :)
 
