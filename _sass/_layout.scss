@@ -10,7 +10,11 @@ $grey-color: #545954;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
+picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .site-title {
     font-size: 26px;
     font-weight: 300;
