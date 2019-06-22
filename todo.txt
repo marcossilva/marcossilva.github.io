@@ -1,1 +1,2 @@
 https://support.google.com/webmasters/answer/35624#1
+Change the contrast ratio for python code
