@@ -16,9 +16,9 @@ image: /assets/papis.png
 
 The second day of PAPIs.io was also full of amazing presentations. Among the top knowledges I've gathered from all these talks I can pinpoint:
 
-* There are many iniciatives trying to ease the data science process of data collection, model experimentation, data and model versioning [\[1\]]((#ludwig-a-code-free-deep-learning-toolbox)) [\[2\]](#dataops-architecture-for-machine-learning)
+* There are many iniciatives trying to ease the data science process of data collection, model experimentation, data and model versioning [\[1\]](#ludwig-a-code-free-deep-learning-toolbox) [\[2\]](#dataops-architecture-for-machine-learning)
 * There is many initiatives trying to ease the connection between different teams in the data science pipeline. [\[2\]](#dataops-architecture-for-machine-learning) [\[3\]](#ai-culture-at-dafiti-and-semi-autonomous-review-approval)
-* There are teams developing solutions focusing to help specifically the data scientist. Those tools are specifically focused on help the programming part of the data scientist. [\[1\]]((#ludwig-a-code-free-deep-learning-toolbox)) [\[4\]](#fklearn-a-functional-library-for-machine-learning)
+* There are teams developing solutions focusing to help specifically the data scientist. Those tools are specifically focused on help the programming part of the data scientist. [\[1\]](#ludwig-a-code-free-deep-learning-toolbox) [\[4\]](#fklearn-a-functional-library-for-machine-learning)
 * Technical issues in specific models were issued mainly in two talks. 
 	* Multitask can be used to solve several problems at the same time helping the model to make quick classification since it shares the convolution layers for different tasks therefore indicating that the convolution really generalized the data. [\[5\]](#multitask-convolutional-neural-networks-saving-gpu-time)
 	* Attention models were pointed as a solution to 'embedded' dynamically relational data values into a dense vector to help classifications tasks. [\[9\]](#attention-based-neural-networks-for-relational-data)
