@@ -26,43 +26,39 @@ Diversity at PAPIs: 55 tickets to diversity applicants and 24% of speakers are w
 
 The first day of PAPIs.io was full of amazing presentations. Among the top knowledges I've gathered from all these talks I can pinpoint:
 
-* Incremental knowledge is a common thing in data science. Either to develop your model or your comprehension of the data and your final client. [\[2\]](#lessons-learned-from-building-a-credit-card-fraud-model) [\[3\]](#bias-and-bugs-implementing-recommendations)
-* There are problems with the classic AB testing proposed in academia applied to the market. AB testing is mainly designed to test visual features but when used in the real world with changes all the time it can be pretty tricky. AB testing also shouldn't be used to predict the behavior of any given KPI as it is not the main intended reason behind it. [\[3\]](#bias-and-bugs-implementing-recommendations) [\[4\]](#where-are-the-gains-should-i-use-ab-tests-for-forecasting)
-* The right solutions should be used in the right applications. Many developers or scientists end up trying to build a perfect system and fail or loose too much time on it. There's a correct use for each available tool and a correct application can be found given the correct restrictions. [\[5\]](#tensorflow-image-inferencing-an-adventure-in-python-and-go) [\[6\]](#deploy-your-deep-learning-models-in-serverless-architectures)
-* Prediction systems have a wide possibility of usage and can be deployed as complex as the system requires. [\[9\]](#time-series-forecasting-for-cloud-resources-provisioning)
+* Incremental knowledge is a common thing in data science. Either to develop your model or your comprehension of the data and your final client. {% include link.html text='2' href='#lessons-learned-from-building-a-credit-card-fraud-model) {% include link.html text='3' href='#bias-and-bugs-implementing-recommendations' target='_self' %}
+* There are problems with the classic AB testing proposed in academia applied to the market. AB testing is mainly designed to test visual features but when used in the real world with changes all the time it can be pretty tricky. AB testing also shouldn't be used to predict the behavior of any given KPI as it is not the main intended reason behind it. {% include link.html text='3' href='#bias-and-bugs-implementing-recommendations) {% include link.html text='4' href='#where-are-the-gains-should-i-use-ab-tests-for-forecasting' target='_self' %}
+* The right solutions should be used in the right applications. Many developers or scientists end up trying to build a perfect system and fail or loose too much time on it. There's a correct use for each available tool and a correct application can be found given the correct restrictions. {% include link.html text='5' href='#tensorflow-image-inferencing-an-adventure-in-python-and-go) {% include link.html text='6' href='#deploy-your-deep-learning-models-in-serverless-architectures' target='_self' %}
+* Prediction systems have a wide possibility of usage and can be deployed as complex as the system requires. {% include link.html text='9' href='#time-series-forecasting-for-cloud-resources-provisioning' target='_self' %}
 
 ## My Watched Talks Index
-<!-- MarkdownTOC autolink="true" -->
-
-- [Real life Reinforcement Learning](#real-life-reinforcement-learning)
-	- [Applications](#applications)
-	- [References:](#references)
-- [Lessons Learned from Building a Credit Card Fraud Model](#lessons-learned-from-building-a-credit-card-fraud-model)
-	- [Impact of fraud on merchants](#impact-of-fraud-on-merchants)
-	- [Machine Learning to Rescue](#machine-learning-to-rescue)
-	- [Importance of unbiased data](#importance-of-unbiased-data)
-	- [Initial attempt](#initial-attempt)
-	- [Final Thoughts](#final-thoughts)
-- [Bias and Bugs: implementing recommendations](#bias-and-bugs-implementing-recommendations)
-- [Where are the gains: Should I use A/B tests for Forecasting?](#where-are-the-gains-should-i-use-ab-tests-for-forecasting)
-	- [Predictive Model](#predictive-model)
-	- [When should the forecasting be done?](#when-should-the-forecasting-be-done)
-	- [Final Thoughts](#final-thoughts-1)
-- [TensorFlow image inferencing: an adventure in Python and Go](#tensorflow-image-inferencing-an-adventure-in-python-and-go)
-	- [Final Thoughts](#final-thoughts-2)
-- [Deploy your Deep Learning models in serverless architectures](#deploy-your-deep-learning-models-in-serverless-architectures)
-	- [Available Solutions](#available-solutions)
-	- [What is serverless?](#what-is-serverless)
-	- [How do I do a serverless ML application?](#how-do-i-do-a-serverless-ml-application)
-	- [Price comparison](#price-comparison)
-- [Using Machine Learning to recommend jobs in User Cold Start](#using-machine-learning-to-recommend-jobs-in-user-cold-start)
-- [A Clinical Application of Deep Learning for NLP with Word-Embeddings](#a-clinical-application-of-deep-learning-for-nlp-with-word-embeddings)
-	- [References:](#references-1)
-- [Time Series Forecasting for Cloud Resources Provisioning](#time-series-forecasting-for-cloud-resources-provisioning)
-- [How Big Data Powers Ambev Sales Machine - sponsored by Big Data](#how-big-data-powers-ambev-sales-machine---sponsored-by-big-data)
-- [How AI is transforming iFood logistics - Estimated Time of Arrival Case](#how-ai-is-transforming-ifood-logistics---estimated-time-of-arrival-case)
-
-<!-- /MarkdownTOC -->
+- {% include link.html href='#real-life-reinforcement-learning' text='Real life Reinforcement Learning' %}
+	- {% include link.html href='#applications' text='Applications' %}
+	- {% include link.html href='#references' text='References' %}
+- {% include link.html href='#lessons-learned-from-building-a-credit-card-fraud-model' text='Lessons Learned from Building a Credit Card Fraud Model' %}
+	- {% include link.html href='#impact-of-fraud-on-merchants' text='Impact of fraud on merchants' %}
+	- {% include link.html href='#machine-learning-to-rescue' text='Machine Learning to Rescue' %}
+	- {% include link.html href='#importance-of-unbiased-data' text='Importance of unbiased data' %}
+	- {% include link.html href='#initial-attempt' text='Initial attempt' %}
+	- {% include link.html href='#final-thoughts' text='Final Thoughts' %}
+- {% include link.html href='#bias-and-bugs-implementing-recommendations' text='Bias and Bugs: implementing recommendations' %}
+- {% include link.html href='#where-are-the-gains-should-i-use-ab-tests-for-forecasting' text='Where are the gains: Should I use A/B tests for Forecasting?' %}
+	- {% include link.html href='#predictive-model' text='Predictive Model' %}
+	- {% include link.html href='#when-should-the-forecasting-be-done' text='When should the forecasting be done?' %}
+	- {% include link.html href='#final-thoughts-1' text='Final Thoughts' %}
+- {% include link.html href='#tensorflow-image-inferencing-an-adventure-in-python-and-go' text='TensorFlow image inferencing: an adventure in Python and Go' %}
+	- {% include link.html href='#final-thoughts-2' text='Final Thoughts' %}
+- {% include link.html href='#deploy-your-deep-learning-models-in-serverless-architectures' text='Deploy your Deep Learning models in serverless architectures' %}
+	- {% include link.html href='#available-solutions' text='Available Solutions' %}
+	- {% include link.html href='#what-is-serverless' text='What is serverless?' %}
+	- {% include link.html href='#how-do-i-do-a-serverless-ml-application' text='How do I do a serverless ML application?' %}
+	- {% include link.html href='#price-comparison' text='Price comparison' %}
+- {% include link.html href='#using-machine-learning-to-recommend-jobs-in-user-cold-start' text='Using Machine Learning to recommend jobs in User Cold Start' %}
+- {% include link.html href='#a-clinical-application-of-deep-learning-for-nlp-with-word-embeddings' text='A Clinical Application of Deep Learning for NLP with Word-Embeddings' %}
+	- {% include link.html href='#references-1' text='References' %}
+- {% include link.html href='#time-series-forecasting-for-cloud-resources-provisioning' text='Time Series Forecasting for Cloud Resources Provisioning' %}
+- {% include link.html href='#how-big-data-powers-ambev-sales-machine---sponsored-by-big-data' text='How Big Data Powers Ambev Sales Machine - sponsored by Big Data' %}
+- {% include link.html href='#how-ai-is-transforming-ifood-logistics---estimated-time-of-arrival-case' text='How AI is transforming iFood logistics - Estimated Time of Arrival Case' %}
 
 
 
@@ -83,14 +79,14 @@ Delivery Planning Optimization
 Autonomous Car Simulation
 
 ### References:
-<https://aws.amazon.com/machine-learning/>
+{% include link.html href='https://aws.amazon.com/machine-learning/' %}
 
 
 ----
 
 
 ## Lessons Learned from Building a Credit Card Fraud Model
-**Leela Senthil Nathan** - *Software Engineer, Stripe* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/b2/PAPIs%20Credit%20Card%20Fraud%20Detection.key)
+**Leela Senthil Nathan** - *Software Engineer, Stripe* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/b2/PAPIs%20Credit%20Card%20Fraud%20Detection.key' text='PDF Presentation' %}
 ### Impact of fraud on merchants
 * Fraudsters uses stolen card to buy item online
 * Customer contacts bank to dispute transaction
@@ -128,7 +124,7 @@ Autonomous Car Simulation
 ----
 
 ## Bias and Bugs: implementing recommendations
-**Guilherme Silveira** - *Alura* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/f4/Bias%20and%20Bugs_%20implementing%20recommendations.pdf)
+**Guilherme Silveira** - *Alura* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/f4/Bias%20and%20Bugs_%20implementing%20recommendations.pdf' text='PDF Presentation' %}
 * Human Benchmark as Baseline
 * Correlation != Causation
 * Bayes-Based AB Test?
@@ -167,7 +163,7 @@ Autonomous Car Simulation
 
 
 ## TensorFlow image inferencing: an adventure in Python and Go
-**Vitor De Mario** - *Tech Lead, NeuralMed* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/e8/vdemario_papis_tensorflow_inferencing_python_go.pdf)
+**Vitor De Mario** - *Tech Lead, NeuralMed* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/e8/vdemario_papis_tensorflow_inferencing_python_go.pdf' text='PDF Presentation' %}
 ### Final Thoughts
 Use the right tool for the right job. It's undoubted that ML thrives in python but it's well known for many developers that other languages are better for some other ends. The best solution was not to use the newly created ported version of Tensorflow to Go, for example, but instead use the python one (which is much more well maintained) and plug the output in the Go existing structure.
 
@@ -208,7 +204,7 @@ Use the right tool for the right job. It's undoubted that ML thrives in python b
 
 
 ## Using Machine Learning to recommend jobs in User Cold Start
-**Andryw Marques** - *Data Scientist, SEEK* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/89/Papis%20-%20Andryw%20Marques%20-%20Cold%20Start.pdf)
+**Andryw Marques** - *Data Scientist, SEEK* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/89/Papis%20-%20Andryw%20Marques%20-%20Cold%20Start.pdf' text='PDF Presentation' %}
 
 * **Train data**: Applied position + randomly negativa non-applied position
 * **Algorithm**: XGBoost (well known, used in Kaggle competitions with good results)
@@ -221,7 +217,7 @@ Use the right tool for the right job. It's undoubted that ML thrives in python b
 
 
 ## A Clinical Application of Deep Learning for NLP with Word-Embeddings
-**Arnon Santos** - *Data Scientist, Junto Seguros* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/b8/ABVS_EMBEDDINGS_PAPIS.pdf)
+**Arnon Santos** - *Data Scientist, Junto Seguros* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/b8/ABVS_EMBEDDINGS_PAPIS.pdf' text='PDF Presentation' %}
 
 What is clinical coding? Is the whole journey of a patient since it arrives in the hospital and leaves it. The clinical coding is the standardization of this whole process in a commons language to all the doctors. This is a super boring process that is currently done manually. 
 

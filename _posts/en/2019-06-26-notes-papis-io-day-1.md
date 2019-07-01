@@ -16,37 +16,35 @@ image: /assets/papis.png
 
 The second day of PAPIs.io was also full of amazing presentations. Among the top knowledges I've gathered from all these talks I can pinpoint:
 
-* There are many iniciatives trying to ease the data science process of data collection, model experimentation, data and model versioning [\[1\]](#ludwig-a-code-free-deep-learning-toolbox) [\[2\]](#dataops-architecture-for-machine-learning)
-* There is many initiatives trying to ease the connection between different teams in the data science pipeline. [\[2\]](#dataops-architecture-for-machine-learning) [\[3\]](#ai-culture-at-dafiti-and-semi-autonomous-review-approval)
-* There are teams developing solutions focusing to help specifically the data scientist. Those tools are specifically focused on help the programming part of the data scientist. [\[1\]](#ludwig-a-code-free-deep-learning-toolbox) [\[4\]](#fklearn-a-functional-library-for-machine-learning)
+* There are many iniciatives trying to ease the data science process of data collection, model experimentation, data and model versioning {% include link.html text='1' href='#ludwig-a-code-free-deep-learning-toolbox' target='_self' %} {% include link.html text='2' href='#dataops-architecture-for-machine-learning' target='_self' %}
+* There is many initiatives trying to ease the connection between different teams in the data science pipeline. {% include link.html text='2' href='#dataops-architecture-for-machine-learning' target='_self' %} {% include link.html text='3' href='#ai-culture-at-dafiti-and-semi-autonomous-review-approval' target='_self' %}
+* There are teams developing solutions focusing to help specifically the data scientist. Those tools are specifically focused on help the programming part of the data scientist. {% include link.html text='1' href='#ludwig-a-code-free-deep-learning-toolbox' target='_self' %} {% include link.html text='4' href='#fklearn-a-functional-library-for-machine-learning' target='_self' %}
 * Technical issues in specific models were issued mainly in two talks. 
-	* Multitask can be used to solve several problems at the same time helping the model to make quick classification since it shares the convolution layers for different tasks therefore indicating that the convolution really generalized the data. [\[5\]](#multitask-convolutional-neural-networks-saving-gpu-time)
-	* Attention models were pointed as a solution to 'embedded' dynamically relational data values into a dense vector to help classifications tasks. [\[9\]](#attention-based-neural-networks-for-relational-data)
-* Model interpretability was discussed much more as a reminder that the final user might not fully understand that a model is making decisions and classifications based on its input. The talks mostly pointed that is important to let the final user know which data is being used and how the model ended up getting to that value. [\[6\]](#ai-informs-humans-choose----or-do-they)
-* Model validation was treated again in this second day. The validation is first presented as it is treated in academia and taught in the books and then the real world problems are brought upon. It's clear that are many things that must be adapted as no real world set-up can handle AB testing, for example. [\[7\]](#validating-models-in-the-real-world)
+	* Multitask can be used to solve several problems at the same time helping the model to make quick classification since it shares the convolution layers for different tasks therefore indicating that the convolution really generalized the data. {% include link.html text='5' href='#multitask-convolutional-neural-networks-saving-gpu-time' target='_self' %}
+	* Attention models were pointed as a solution to 'embedded' dynamically relational data values into a dense vector to help classifications tasks. {% include link.html text='9' href='#attention-based-neural-networks-for-relational-data' target='_self' %}
+* Model interpretability was discussed much more as a reminder that the final user might not fully understand that a model is making decisions and classifications based on its input. The talks mostly pointed that is important to let the final user know which data is being used and how the model ended up getting to that value. {% include link.html text='6' href='#ai-informs-humans-choose----or-do-they' target='_self' %}
+* Model validation was treated again in this second day. The validation is first presented as it is treated in academia and taught in the books and then the real world problems are brought upon. It's clear that are many things that must be adapted as no real world set-up can handle AB testing, for example. {% include link.html text='7' href='#validating-models-in-the-real-world' target='_self' %}
 
 ## My Watched Talks Index
-<!-- MarkdownTOC autolink="true" -->
 
-- [Ludwig, a Code-Free Deep Learning Toolbox](#ludwig-a-code-free-deep-learning-toolbox)
-- [DataOps architecture for Machine Learning](#dataops-architecture-for-machine-learning)
-- [AI culture at Dafiti and semi-autonomous review approval](#ai-culture-at-dafiti-and-semi-autonomous-review-approval)
-- [FKLearn: A functional library for machine learning](#fklearn-a-functional-library-for-machine-learning)
-- [Multitask convolutional neural networks: saving GPU time](#multitask-convolutional-neural-networks-saving-gpu-time)
-- [AI informs, humans choose -- or do they?](#ai-informs-humans-choose----or-do-they)
-- [Validating models in the real world](#validating-models-in-the-real-world)
-	- [Supervised Learning in ML101](#supervised-learning-in-ml101)
-	- [Supervised Learning in Real World](#supervised-learning-in-real-world)
-	- [Model degradation](#model-degradation)
-	- [Old Policies and bias:](#old-policies-and-bias)
-	- [Engineering](#engineering)
-	- [Business](#business)
-- [Trading strategies using deep reinforcement learning](#trading-strategies-using-deep-reinforcement-learning)
-- [Attention Based Neural Networks for Relational Data](#attention-based-neural-networks-for-relational-data)
-- [Grupo ZAP](#grupo-zap)
-- [Machine Learning for Natural Resources](#machine-learning-for-natural-resources)
-- [Stickers](#stickers)
-<!-- /MarkdownTOC -->
+- {% include link.html text='Ludwig, a Code-Free Deep Learning Toolbox' href='#ludwig-a-code-free-deep-learning-toolbox' target='_self' %}
+- {% include link.html text='DataOps architecture for Machine Learning' href='#dataops-architecture-for-machine-learning' target='_self' %}
+- {% include link.html text='AI culture at Dafiti and semi-autonomous review approval' href='#ai-culture-at-dafiti-and-semi-autonomous-review-approval' target='_self' %}
+- {% include link.html text='FKLearn: A functional library for machine learning' href='#fklearn-a-functional-library-for-machine-learning' target='_self' %}
+- {% include link.html text='Multitask convolutional neural networks: saving GPU time' href='#multitask-convolutional-neural-networks-saving-gpu-time' target='_self' %}
+- {% include link.html text='AI informs, humans choose -- or do they?' href='#ai-informs-humans-choose----or-do-they' target='_self' %}
+- {% include link.html text='Validating models in the real world' href='#validating-models-in-the-real-world' target='_self' %}
+	- {% include link.html text='Supervised Learning in ML101' href='#supervised-learning-in-ml101' target='_self' %}
+	- {% include link.html text='Supervised Learning in Real World' href='#supervised-learning-in-real-world' target='_self' %}
+	- {% include link.html text='Model degradation' href='#model-degradation' target='_self' %}
+	- {% include link.html text='Old Policies and bias:' href='#old-policies-and-bias' target='_self' %}
+	- {% include link.html text='Engineering' href='#engineering' target='_self' %}
+	- {% include link.html text='Business' href='#business' target='_self' %}
+- {% include link.html text='Trading strategies using deep reinforcement learning' href='#trading-strategies-using-deep-reinforcement-learning' target='_self' %}
+- {% include link.html text='Attention Based Neural Networks for Relational Data' href='#attention-based-neural-networks-for-relational-data' target='_self' %}
+- {% include link.html text='Grupo ZAP' href='#grupo-zap' target='_self' %}
+- {% include link.html text='Machine Learning for Natural Resources' href='#machine-learning-for-natural-resources' target='_self' %}
+- {% include link.html text='Stickers' href='#stickers' target='_self' %}
 
 
 
@@ -66,7 +64,7 @@ The second day of PAPIs.io was also full of amazing presentations. Among the top
 
 
 ## DataOps architecture for Machine Learning
-**Carlos Porto Filho, Gustavo Castilhos** - *Data Scientist, Everis* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/6e/everis_DataOps_Noronha_PAPIs_v1.pptx)
+**Carlos Porto Filho, Gustavo Castilhos** - *Data Scientist, Everis* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/6e/everis_DataOps_Noronha_PAPIs_v1.pptx' text='PDF Presentation' %}
 * When a ML project is done? When it reaches 100% acc? When the deadline has passed?
 * Why is it so hard to answer that? Business explain the requirements for the DS, the model is developed, but when it is deployed many integrations and iterations are really due to errors
 
@@ -75,7 +73,7 @@ The second day of PAPIs.io was also full of amazing presentations. Among the top
 
 
 ## AI culture at Dafiti and semi-autonomous review approval
-**Ricardo Savil** - *Data Scientist, Dafiti Group* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/f3/Dafiti%20%40%20papis.io_%20AI%20%26%20case.pdf)
+**Ricardo Savil** - *Data Scientist, Dafiti Group* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/f3/Dafiti%20%40%20papis.io_%20AI%20%26%20case.pdf' text='PDF Presentation' %}
 
 * Ideation -> Detailing (Business Understanding) -> Prioritizing (Score projects and focus on a few) -> PoC (map and experiment)-> Implement (take the experimentation to the main teams) -> Finalization (approval with the business team)
 
@@ -93,7 +91,7 @@ Tutorial on the FKLearn developed by Nubank. Mostly tutorial/quick hands-on. The
 
 
 ## Multitask convolutional neural networks: saving GPU time
-**Paulo Eduardo Sampaio** - *Data science specialist, McKinsey & Company* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/86/multitask_papis.pdf)
+**Paulo Eduardo Sampaio** - *Data science specialist, McKinsey & Company* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/86/multitask_papis.pdf' text='PDF Presentation' %}
 * Single Task Classifier vs Multi Task Classifier
 * Single > Input > Conv > Output
 * Multi > Input > Conv > [Out1, Out2, Out3, ...]
@@ -106,9 +104,9 @@ Tutorial on the FKLearn developed by Nubank. Mostly tutorial/quick hands-on. The
 
 
 ## AI informs, humans choose -- or do they?
-**Bianca Ximenes** - *Independent consultant / Doctoral Student, Tecnora / UFPE* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/af/AI%20informs%2C%20humans%20choose.pdf)
+**Bianca Ximenes** - *Independent consultant / Doctoral Student, Tecnora / UFPE* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/af/AI%20informs%2C%20humans%20choose.pdf' text='PDF Presentation' %}
 * How Google makes trustable models
-* <https://pair.withgoogle.com/>
+* {% include link.html href='https://pair.withgoogle.com/' %}
 * What is a mental model? 
 * The product must ensure that the expectations of the user are aligned with the output of the model
 * What is an AI? Is it going to improve? Is the product learning from my feedback?
@@ -120,7 +118,7 @@ Tutorial on the FKLearn developed by Nubank. Mostly tutorial/quick hands-on. The
 
 
 ## Validating models in the real world
-**Luis Moneda** - *Data Scientist, Nubank* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/67/Papis%20-%20Validating%20models%20in%20the%20real%20world.pdf)
+**Luis Moneda** - *Data Scientist, Nubank* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/67/Papis%20-%20Validating%20models%20in%20the%20real%20world.pdf' text='PDF Presentation' %}
 ### Supervised Learning in ML101
 
 * X -f-> y
@@ -148,12 +146,12 @@ Tutorial on the FKLearn developed by Nubank. Mostly tutorial/quick hands-on. The
 * Conterfactual evaluation: in production disobey your model decision with probability p them you can oversample the unseen classes
 
 ### Engineering
-How often can I update my model? Is there any time constraint? This influences your timed train-test-validation set split in [Supervised Learning in Real World](#supervised-learning-in-real-world)
+How often can I update my model? Is there any time constraint? This influences your timed train-test-validation set split in {% include link.html text='Supervised Learning in Real World' href='#supervised-learning-in-real-world' %}
 
 ### Business
 Lots of things can change in the X distribution. You can't do but you can monitor the changes to act with policies depending on the impact
 
-<http://lgmoneda.github.io>
+{% include link.html href='http://lgmoneda.github.io' %}
 
 
 -----
@@ -162,7 +160,7 @@ Lots of things can change in the X distribution. You can't do but you can monito
 ## Trading strategies using deep reinforcement learning
 **Suraj Shinde, Cristyan Ruffino Gil Morales** - *Director - AI Digital Lab, EVERIS MEXICO S DE RL DE CV, AI Research Lab Leader, everis*
 
-Mainly based on internet tutorials like <https://www.youtube.com/watch?v=05NqKJ0v7EE>. 
+Mainly based on internet tutorials like {% include link.html href='https://www.youtube.com/watch?v=05NqKJ0v7EE' %}
 
 |Market Data -> 			|\|Neural Model | -> Output (Buy, Sell, Hold)
 |News Data -> Embedding ->	|\|			  |
@@ -174,7 +172,7 @@ Mainly based on internet tutorials like <https://www.youtube.com/watch?v=05NqKJ0
 
 
 ## Attention Based Neural Networks for Relational Data
-**Scott Brownlie** - *Senior Data Scientist, TOTVS Labs* - [PDF Presentation](https://static.sched.com/hosted_files/papislatam2019/1a/Attention-Based%20Neural%20Networks%20for%20Relational%20Data.pptx)
+**Scott Brownlie** - *Senior Data Scientist, TOTVS Labs* - {% include link.html href='https://static.sched.com/hosted_files/papislatam2019/1a/Attention-Based%20Neural%20Networks%20for%20Relational%20Data.pptx' text='PDF Presentation' %}
 * Attention mechanism assign weights of the historic procedures on the DB
 * Based on these weights each data point is consolidated in a single processed data point that is then used to classification
 * Compute the scaled dot-produt np.dot(Q, K^T)/sqrt(dim(Q))
