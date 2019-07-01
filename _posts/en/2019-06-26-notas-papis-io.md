@@ -45,7 +45,7 @@ The second day of PAPIs.io was also full of amazing presentations. Among the top
 - [Attention Based Neural Networks for Relational Data](#attention-based-neural-networks-for-relational-data)
 - [Grupo ZAP](#grupo-zap)
 - [Machine Learning for Natural Resources](#machine-learning-for-natural-resources)
-
+- [Stickers](#stickers)
 <!-- /MarkdownTOC -->
 
 
