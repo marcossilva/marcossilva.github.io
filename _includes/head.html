@@ -3,8 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:locale" content="{{ page.lang }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
-  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
+  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+  <meta property="og:locale:alternate" content="{{ post.lang }}">{% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">{% if site.tags != "" %}{% include collecttags.html %}{% endif %}
@@ -16,7 +21,12 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  
+  <meta property='og:title' content="{% if page.title != None %}{{ page.title | append: ' | ' | append:site.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if page.image != None %}<meta property='og:image' content="{{ page.image | append: ' | ' | append:site.title }}">{% endif %}
   <title>{% if page.title != None %}{{ page.title | append: ' | ' | append:site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% if page.description != None %}<meta name="Description" content="{{ page.description }}">{% endif %}
+  {% if page.description != None %}
+    <meta name="Description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% endif %}
+  <meta name="twitter:site" content="@marcospedro">
 </head>
