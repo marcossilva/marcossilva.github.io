@@ -20,7 +20,7 @@ layout: default
       {% if page.author %}
          • <span>{{ page.author }}</span>
       {% else %}
-        • <a href="{{ site.about_dir[page.lang] | prepend: site.baseurl}}">{{ site.author }}</a>
+        • <a rel='author' href="{{ site.about_dir[page.lang] | prepend: site.baseurl}}">{{ site.author }}</a>
       {% endif %}</p>
   </header>
 
