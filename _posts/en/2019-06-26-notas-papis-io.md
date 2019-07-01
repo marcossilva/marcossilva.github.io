@@ -198,3 +198,24 @@ Mostly a talk about how ZAP divided São Paulo into blocks that made sense to th
 **Bianca Zadrozny** - *Research Manager, IBM*
 
 This talk was mainly the research project listing of IBM in the past few months. But all the projects were presented superficially and didn't seem to have much application in the market. The conclusions were as well partially disappointing as, for example, in one project to detect gold in a given excavation site their model conclusion was that if the initial sample given had gold the probability of gold existing in that cubic meter was high.
+
+
+
+----
+
+
+## Stickers
+
+{% include figure.html filename="paranormal" extension="jpg" width="50%" caption="Paranormal Distribution" %}
+
+{% include figure.html filename="orgulho" extension="jpg" width="50%" caption="Orgulho LGBT+" %}
+
+{% include figure.html filename="data_is_the_new_bacon" extension="jpg" width="50%" caption="Data is the new Bacon" %}
+
+{% include figure.html filename="random_forests" extension="jpg" width="50%" caption="I camp in Random Forests" %}
+
+{% include figure.html filename="email_atitude" extension="jpg" width="50%" caption="Less Email More Attitude"%}
+
+{% include figure.html filename="pandas_play" extension="jpg" width="50%" caption="I play with pandas" %}
+
+{% include figure.html filename="problem_solution" extension="jpg" width="50%" caption="Don't point the problem, find the solution" %}
