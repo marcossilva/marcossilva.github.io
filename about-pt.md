@@ -21,6 +21,6 @@ Eu tenho interesses dinâmicos e variáveis, mas a maioria pincela os temas rela
 
 {% include figure.html filename="profile2" extension="png" caption="Eu em Chicago" %}
 
-Meu <a href='https://mj.ucw.cz/geek/' rel='nofollow'>código geek</a> está abaixo para aqueles que quiserem me entender melhor :)
+Meu currículo está disponível [aqui](/assets/pdf/Marcos_Leal_CV_pt.pdf){:target="_blank"} e meu <a href='https://mj.ucw.cz/geek/' rel='nofollow' target='_blank'>código geek</a> está abaixo para aqueles que quiserem me entender melhor :)
 
 <code> GCS d-@ s:- a-- C++++$ UL+++$>++++ P? L++ !E W++$ !N !o K--? w !O !M !V? PS++(+++) PE(+) Y+(--) !PGP- t !5 !X R* tv- b+ DI++ !D G e+++>++++ h-->++ r y++**>++++ </code>

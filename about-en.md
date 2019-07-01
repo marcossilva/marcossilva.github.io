@@ -20,6 +20,6 @@ I have dynamic interests but most of the cross the related themes below:
 
 {% include figure.html filename="profile2" extension="png" caption="Eu em Chicago" %}
 
-My <a href='https://mj.ucw.cz/geek/' rel='nofollow'>geek code</a> is below for those who would like to understand more of me :)
+My CV is available [here](/assets/pdf/Marcos_Leal_CV_en.pdf){:target="_blank"} and my <a href='https://mj.ucw.cz/geek/' rel='nofollow' target='_blank'>geek code</a> is below for those who would like to understand more of me :)
 
 <code> GCS d-@ s:- a-- C++++$ UL+++$>++++ P? L++ !E W++$ !N !o K--? w !O !M !V? PS++(+++) PE(+) Y+(--) !PGP- t !5 !X R* tv- b+ DI++ !D G e+++>++++ h-->++ r y++**>++++ </code>
