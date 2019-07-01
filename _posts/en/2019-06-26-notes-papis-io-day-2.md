@@ -10,9 +10,8 @@ dateModified: 2019-06-27T17:52:00-03:00
 description: Main topics summary of the watched talks in the second day on presentations in PAPIs.io
 image: /assets/papis.png
 ---
-<div style="background-color: black;">
-<a href='https://papis.io'>
-{% include figure.html filename="papis" extension="png" alt="logo of the papis conference" title="PAPIs.io Conference" caption="PAPIs.io"%}</a></div>
+
+{% include figure.html filename="papis" extension="png" alt="logo of the papis conference" title="PAPIs.io Conference" caption="<a href='https://papis.io'>PAPIs.io</a>"%}
 
 The second day of PAPIs.io was also full of amazing presentations. Among the top knowledges I've gathered from all these talks I can pinpoint:
 

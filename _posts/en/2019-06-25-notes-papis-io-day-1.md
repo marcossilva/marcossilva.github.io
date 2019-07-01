@@ -10,9 +10,8 @@ dateModified: 2019-06-25T18:00:00-03:00
 description: Main topics summary of the watched talks in the first day on presentations in PAPIs.io
 image: /assets/papis.png
 ---
-<div style="background-color: black;">
-<a href='https://papis.io'>
-{% include figure.html filename="papis" extension="png" alt="logo of the papis conference" title="PAPIs.io Conference" caption="PAPIs.io"%}</a></div>
+
+{% include figure.html filename="papis" extension="png" alt="logo of the papis conference" title="PAPIs.io Conference" caption="<a href='https://papis.io'>PAPIs.io</a>"%}
 
 PAPIS.io is the main conference on Machine Learning applied to the market in the Latim America. It took place in São Paulo 25 and 26th June at the Cinemark Eldorado. This year I had the amazing oportunity to participate through B2W sponsorship. The conference takes place mainly to allow the data science related public to share results and opinions and also to increase the networking between the professionals of the area. The attending public varies wildly between:
 * Engineers
