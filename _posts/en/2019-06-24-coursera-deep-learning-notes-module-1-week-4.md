@@ -6,14 +6,14 @@ lang: en
 categories: en
 tags: deep-learning lecture-notes coursera
 datePublished: 2019-06-24T02:25:00-03:00
-dateModified: 2019-07-01T17:57:00-03:00
+dateModified: 2019-07-01T23:21:00-03:00
 description: Notes of the first Coursera module, week 4 in the deeplearning.ai specialization
 image: /assets/Course1-1.png
 ---
 
 {% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Week 3 - Shallow Neural Networks" width="50%" %}
 
-## Week 3 - Shallow Neural Network
+## Week 4
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
