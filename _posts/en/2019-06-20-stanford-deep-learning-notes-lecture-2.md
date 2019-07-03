@@ -78,3 +78,5 @@ All these bolded pointed things can change in a Machine Learning problem. Apart 
 - Input data -> Fourier Transform (FFT) -> LSTM
 - FFT itself has its own hyperparameters
 - A better approach: Input data -> Fourier Transform (FFT) (v2 Hyperparameters) -> Conv + BatchNorm (BN) -> GRU + BN -> Activation -> Expanded Output
+
+<a href="{{ site.baseurl }}{% link _posts/en/2019-05-20-stanford-deep-learning-notes-lecture-index.md  %}">Classes Index</a>

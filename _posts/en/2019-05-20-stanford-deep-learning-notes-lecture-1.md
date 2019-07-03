@@ -17,3 +17,5 @@ Why deep learning it's taking off now (suddenly)?
 - NN increases performances with data
 - GPU and computational power availability (either local and cloud sources)
 - AI has many other tools apart from Machine Learning tools. Deep Learning has become much more attractive in the last few years given the data and engulfed most of the interest. Some of the tools are PGM (probabilistic graph model), planning, KR (Knowledge Representation), Planning Algorithms, Searchs Techniques, Game Theory
+
+<a href="{{ site.baseurl }}{% link _posts/en/2019-05-20-stanford-deep-learning-notes-lecture-index.md  %}">Classes Index</a>
