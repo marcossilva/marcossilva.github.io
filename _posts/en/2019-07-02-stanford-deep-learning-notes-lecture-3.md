@@ -8,8 +8,9 @@ tags: deep-learning lecture-notes
 datePublished: 2019-07-02T23:00:00-03:00
 dateModified: 2019-07-02T23:00:00-03:00
 description: Notes of the third Stanford deep learning course lecture.
-image: /assets/learning-process.png
+image: /assets/stanford-logo.png
 ---
+{% include figure.html filename='stanford-logo' extension='png' alt='Block S (One color in Red on a Dark Background)' title='Stanford Logo' caption='Stanford Logo' width='20%' %}
 
 <https://youtu.be/JUJNGv_sb4Y>
 

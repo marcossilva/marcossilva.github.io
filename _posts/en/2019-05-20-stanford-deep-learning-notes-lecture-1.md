@@ -5,7 +5,11 @@ ref: deep-learning-lecture-1
 lang: en
 categories: en
 tags: deep-learning lecture-notes
+image: /assets/stanford-logo.png
 ---
+
+{% include figure.html filename='stanford-logo' extension='png' alt='Block S (One color in Red on a Dark Background)' title='Stanford Logo' caption='Stanford Logo' width='20%' %}
+
 ## Lecture 1
 Why deep learning it's taking off now (suddenly)?
 - Increase of data availability and collected through all means

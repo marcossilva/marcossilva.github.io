@@ -8,8 +8,9 @@ tags: deep-learning lecture-notes
 datePublished: 2019-06-20T23:00:00-03:00
 dateModified: 2019-06-20T23:00:00-03:00
 description: Notes of the second Stanford deep learning course lecture.
-image: /assets/learning-process.png
+image: /assets/stanford-logo.png
 ---
+{% include figure.html filename='stanford-logo' extension='png' alt='Block S (One color in Red on a Dark Background)' title='Stanford Logo' caption='Stanford Logo' width='20%' %}
 
 Machine Learning can be taught as learning an approximate function that maps an **input** to a desired **output**. This can be done using an **model**. The model is basically a given **architecture** and its **parameters**. The **loss** function gives you how much you should move your parameters in the given architecture to minimize your error using a gradient.
 
