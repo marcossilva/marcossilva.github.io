@@ -21,7 +21,7 @@ Steps of an ML project/application:
 1. Select a problem (Supervised Learning) 
 	- Voice Activated Device
 	- X (audio) -> y (wake word)
-2.  Get data
+2. Get data
 3. Design model
 4. Train model
 5. Test model
@@ -46,7 +46,7 @@ II. Data collection.
 
 III. Design model
 
-* Keep clear notes on experiments run to ease the comparation and the outputs metrics tracking
+* Keep clear notes on experiments run to ease the comparison and the outputs metrics tracking
 
 VI. Deploy
 
