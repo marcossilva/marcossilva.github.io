@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coursera Deep Learning Module 1 Week 1 Notes"
+title:  "Coursera Deep Learning Module 3 Week 1 Notes"
 ref: coursera-deep-learning-3-1
 lang: en
 categories: en
