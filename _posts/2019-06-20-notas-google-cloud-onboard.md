@@ -7,7 +7,7 @@ categories:
 tags: google-cloud negocio
 datePublished: 2019-06-20T16:00:00-03:00
 dateModified: 2019-06-20T17:52:00-03:00
-description: Nesse post eu descrevo os tópicos principais que anotei durante a aprensetação do Google Cloud OnBoard
+description: Nesse post eu descrevo os tópicos principais que anotei durante a apresentação do Google Cloud OnBoard
 image: /assets/google-cloud.jpg
 ---
 {% include figure.html filename="google-cloud" extension="jpg" alt="logo nuvem do google cloud" title="Google Cloud Logo" caption="GCP - Muitas oportunidades dentro de uma só plataforma" %}
