@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Qual a diferença de *src* e *href* nas tags HTML?
+title:  Qual a diferença de src e href nas tags HTML?
 ref: title-tag
 lang: pt
 categories: 
 tags: seo
 datePublished: 2019-07-19T19:36:00-03:00
 dateModified: 2019-07-19T19:36:00-03:00
-description: *src* e *href* podem ser enontradas em outras tags. O conceito geral é que utiliza-se *src* quando queremos carregar e inserir o conteúdo do link naquele local da página e o *href* quando queremos esperar uma interação do usuário para carregar o conteúdo.
+description: src e href podem ser enontradas em outras tags. O conceito geral é que utiliza-se src quando queremos carregar e inserir o conteúdo do link naquele local da página e o href quando queremos esperar uma interação do usuário para carregar o conteúdo.
 ---
 
 ## Cara de uma tag *img* (imagem)
