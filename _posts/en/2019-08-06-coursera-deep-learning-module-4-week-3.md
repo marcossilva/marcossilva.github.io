@@ -63,4 +63,13 @@ Intersection over union is a metric to measure the performance of bounding box p
 
 ## Non-max Suppression
 
-<https://www.coursera.org/learn/convolutional-neural-networks/lecture/dvrjH/non-max-suppression>
+As the grid gets finer it's possible that multiple cells detect the object on them and end up firing the detection of the bounding box on mutiple places. The non-max supression technique chooses only the highest bounding box in the classification to output as result.
+
+Suppose a $19 \times 19$ grid where there are 391 possible outputs. The algorithm proceeds as follows: 
+
+<div class="code-highlited-mod">
+	<p>discard all the boxes with $p_c \leq 0.6$</p>
+	<p>While there are remaining box</p>
+		<p style="text-indent: 2em;">Pick the box with the largest $p_c$ and output that as prediction</p>
+		<p style="text-indent: 2em;">Discard any remaining box with $IoU \leq 0.5$ with the box out</p>
+</div>
