@@ -12,7 +12,7 @@ image: /assets/Course2.png
 ---
 
 {% include figure.html filename="Course2" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Improving Deep Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-4.html" next="/en/2019/07/17/coursera-deep-learning-module-2-week-2.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -201,3 +201,5 @@ MathJax.Hub.Config({
 	* [X] It makes the cost function faster to optimize
 	* [ ] Normalization is another word for regularization--It helps to reduce variance
 	* [ ] It makes it easier to visualize the data
+
+{% include prevnext.html prev="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-4.html" next="/en/2019/07/17/coursera-deep-learning-module-2-week-2.html" %}

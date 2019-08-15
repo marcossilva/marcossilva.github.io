@@ -11,8 +11,8 @@ description: Notes of the first Coursera module, week 3 in the deeplearning.ai s
 image: /assets/Course1-1.png
 ---
 
-{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Week 3 - Shallow Neural Networks" width="50%" %}
-
+{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Neural Networks" width="50%" %}
+{% include prevnext.html prev="/en/2019/06/22/coursera-deep-learning-notes-module-1-week-2.html" next="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-4.html" %}
 ## Week 3 - Shallow Neural Network
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -188,3 +188,5 @@ What will be B.shape? (If you’re not sure, feel free to run this in python to 
 	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,1)
 	* [X] $Z^{[1]}$ and $A^{[1]}$ are (4,2)
 	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,m)
+
+{% include prevnext.html prev="/en/2019/06/22/coursera-deep-learning-notes-module-1-week-2.html" next="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-4.html" %}

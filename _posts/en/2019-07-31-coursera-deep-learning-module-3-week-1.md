@@ -12,7 +12,7 @@ image: /assets/Course3.png
 ---
 
 {% include figure.html filename="Course3" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Structuring Machine Learning Projects" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/07/29/coursera-deep-learning-module-2-week-3.html" next="/en/2019/08/03/coursera-deep-learning-module-3-week-2.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -280,3 +280,5 @@ You have only 1,000 images of the new species of bird. The city expects a better
 * [X] Needing two weeks to train will limit the speed at which you can iterate.
 * [X] If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a \approx≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.
 * [X] Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.
+
+{% include prevnext.html prev="/en/2019/07/29/coursera-deep-learning-module-2-week-3.html" next="/en/2019/08/03/coursera-deep-learning-module-3-week-2.html" %}

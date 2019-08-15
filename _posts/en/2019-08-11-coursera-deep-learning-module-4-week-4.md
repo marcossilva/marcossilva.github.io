@@ -12,7 +12,7 @@ image: /assets/course4.jpeg
 ---
 
 {% include figure.html filename="course4" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Convolutional Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/08/06/coursera-deep-learning-module-4-week-3.html" next="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html" %}
 <style type="text/css">
 	div.code-highlited-mod{font-family:monospace;font-size: 15px;border: 1px solid #e8e8e8;border-radius: 3px;background-color: #eef;padding: 8px 12px;overflow-x: auto;}
 </style>
@@ -158,3 +158,5 @@ If we use the hidden layer l to measure the style. We would like to define style
 * [ ] Undefined: This convolution step is impossible and cannot be performed because the dimensions specified don’t match up.
 * [ ] 30x30x30x16
 * [X] 30x30x30x32
+
+{% include prevnext.html prev="/en/2019/08/06/coursera-deep-learning-module-4-week-3.html" next="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html" %}

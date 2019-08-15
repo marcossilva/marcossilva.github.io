@@ -12,7 +12,7 @@ image: /assets/Course2.png
 ---
 
 {% include figure.html filename="Course2" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Improving Deep Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/07/17/coursera-deep-learning-module-2-week-2.html" next="/en/2019/07/31/coursera-deep-learning-module-3-week-1.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -183,3 +183,5 @@ point
 * [X] Even if a project is currently open source, good governance of the project helps ensure that the it remains open even in the long term, rather than become closed or modified to benefit only one company.
 * [ ] Deep learning programming frameworks require cloud-based machines to run.
 * [X] A programming framework allows you to code up deep learning algorithms with typically fewer lines of code than a lower-level language such as Python.
+
+{% include prevnext.html prev="/en/2019/07/17/coursera-deep-learning-module-2-week-2.html" next="/en/2019/07/31/coursera-deep-learning-module-3-week-1.html" %}

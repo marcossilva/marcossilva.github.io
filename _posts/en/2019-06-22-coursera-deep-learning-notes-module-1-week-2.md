@@ -11,8 +11,8 @@ description: Notes of the first Coursera module, week 2 in the deeplearning.ai s
 image: /assets/Course1-1.png
 ---
 
-{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Week 2 - Neural Networks Basics" width="50%" %}
-
+{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Neural Networks" width="50%" %}
+{% include prevnext.html prev="/en/2019/06/21/coursera-deep-learning-notes-module-1-week-1.html" next="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-3.html" %}
 ## Week 2 - Neural Networks Basics
 
 ### Binary Classification
@@ -325,3 +325,5 @@ What will be c? (If you’re not sure, feel free to run this in python to find o
  - [X] J = (a - 1) \* (b + c)
  - [ ] J = a\*b + b\*c + a\*c
  - [ ] J = (b - 1) \* (c + a)
+
+ {% include prevnext.html prev="/en/2019/06/21/coursera-deep-learning-notes-module-1-week-1.html" next="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-3.html" %}

@@ -12,7 +12,7 @@ image: /assets/course4.jpeg
 ---
 
 {% include figure.html filename="course4" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Convolutional Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/08/04/coursera-deep-learning-module-4-week-1.html" next="/en/2019/08/06/coursera-deep-learning-module-4-week-3.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -184,3 +184,5 @@ When you don't have much labeled data you just have to call more on hand-enginee
 * [X] Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
 * [ ] A model trained for one computer vision task can usually be used to perform data augmentation even for a different computer vision task.
 * [X] It is a convenient way to get working an implementation of a complex ConvNet architecture.
+
+{% include prevnext.html prev="/en/2019/08/04/coursera-deep-learning-module-4-week-1.html" next="/en/2019/08/06/coursera-deep-learning-module-4-week-3.html" %}

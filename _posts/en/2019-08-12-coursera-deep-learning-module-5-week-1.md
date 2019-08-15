@@ -23,7 +23,7 @@ MathJax.Hub.Config({
 });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
+{% include prevnext.html prev="/en/2019/08/11/coursera-deep-learning-module-4-week-4.html" next="/en/2019/08/15/coursera-deep-learning-module-5-week-2.html" %}
 ## Why sequential models
 
 Work best with sequential data as:
@@ -171,3 +171,5 @@ What are you doing at each time step tt?
 * [ ] Bidirectional RNN, because this allows backpropagation to compute more accurate gradients.
 * [X] Unidirectional RNN, because the value of $y^{\<t\>}$ depends only on $x^{\<1\>},...,x^{\<t\>}$, but not on $x^{\<t+1\>},...,x^{\<365\>}$
 * [ ] Unidirectional RNN, because the value of $y^{\<t\>}$ depends only on $x^{\<t\>}$, and not other days’ weather.
+
+{% include prevnext.html prev="/en/2019/08/11/coursera-deep-learning-module-4-week-4.html" next="/en/2019/08/15/coursera-deep-learning-module-5-week-2.html" %}

@@ -11,8 +11,8 @@ description: Notes of the first Coursera module, week 4 in the deeplearning.ai s
 image: /assets/Course1-1.png
 ---
 
-{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Week 3 - Shallow Neural Networks" width="50%" %}
-
+{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Neural Networks" width="50%" %}
+{% include prevnext.html prev="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-3.html" next="/en/2019/07/03/coursera-deep-learning-module-2-week-1.html" %}
 ## Week 4
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -144,3 +144,5 @@ Which of the following statements are True? (Check all that apply).
 	* [X] $W^{[l]}$ has shape $(n^{[l]}, n^{[l-1]})$
 	* [ ] $W^{[l]}$ has shape $(n^{[l]}, n^{[l+1]})$
 	* [ ] $W^{[l]}$ has shape $(n^{[l+1]}, n^{[l]})$
+
+{% include prevnext.html prev="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-3.html" next="/en/2019/07/03/coursera-deep-learning-module-2-week-1.html" %}

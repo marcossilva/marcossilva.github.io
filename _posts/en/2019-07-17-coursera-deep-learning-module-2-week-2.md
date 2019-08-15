@@ -12,7 +12,7 @@ image: /assets/Course2.png
 ---
 
 {% include figure.html filename="Course2" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Improving Deep Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/07/03/coursera-deep-learning-module-2-week-1.html" next="/en/2019/07/29/coursera-deep-learning-module-2-week-3.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -206,3 +206,5 @@ Say you use an exponentially weighted average with $\beta = 0.5β=0.5$ to track 
 * [X] Adam should be used with batch gradient computations, not with mini-batches.
 * [ ] We usually use “default” values for the hyperparameters $\beta_1, \beta_2$ and $\varepsilon$ in Adam $(\beta_1 = 0.9, \beta_2 = 0.999, \varepsilon=10^{−8})$
 * [ ] Adam combines the advantages of RMSProp and momentum
+
+{% include prevnext.html prev="/en/2019/07/03/coursera-deep-learning-module-2-week-1.html" next="/en/2019/07/29/coursera-deep-learning-module-2-week-3.html" %}

@@ -11,8 +11,8 @@ description: Notes of the first Coursera module, week 1 in the deeplearning.ai s
 image: /assets/Course1-1.png
 ---
 
-{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Week 1 - Neural Networks" width="50%" %}
-
+{% include figure.html filename="Course1-1" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Neural Networks" width="50%" %}
+{% include prevnext.html next="/en/2019/06/22/coursera-deep-learning-notes-module-1-week-2.html" %}
 ## Week 1 - Introduction to Deep Learning
 
 ### Introduction
@@ -119,3 +119,5 @@ The basic ideas of deep learning have been around for decades but why the sudden
  - [ ] Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
  - [X] Increasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
  - [ ] Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
+
+{% include prevnext.html next="/en/2019/06/22/coursera-deep-learning-notes-module-1-week-2.html" %}

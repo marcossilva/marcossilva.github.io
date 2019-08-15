@@ -12,7 +12,7 @@ image: /assets/course4.jpeg
 ---
 
 {% include figure.html filename="course4" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Convolutional Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/08/04/coursera-deep-learning-module-4-week-2.html" next="/en/2019/08/11/coursera-deep-learning-module-4-week-4.html" %}
 <style type="text/css">
 	div.code-highlited-mod{font-family:monospace;font-size: 15px;border: 1px solid #e8e8e8;border-radius: 3px;background-color: #eef;padding: 8px 12px;overflow-x: auto;}
 </style>
@@ -150,3 +150,5 @@ Paper: {% include link.html href="https://arxiv.org/pdf/1311.2524.pdf" title="Ri
 * [ ] 19x19x(20x25)
 * [X] 19x19x(5x25)
 * [ ] 19x19x(25x20)
+
+{% include prevnext.html prev="/en/2019/08/04/coursera-deep-learning-module-4-week-2.html" next="/en/2019/08/11/coursera-deep-learning-module-4-week-4.html" %}

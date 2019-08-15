@@ -12,7 +12,7 @@ image: /assets/course4.jpeg
 ---
 
 {% include figure.html filename="course4" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Convolutional Neural Networks" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/08/03/coursera-deep-learning-module-3-week-2.html" next="/en/2019/08/04/coursera-deep-learning-module-4-week-2.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -157,3 +157,5 @@ Convolutional neural networks are very good at capturing translation invariance 
 * [ ] Each layer in a convolutional network is connected only to two other layers
 * [ ] Each filter is connected to every channel in the previous layer.
 * [ ] Regularization causes gradient descent to set many of the parameters to zero.
+
+{% include prevnext.html prev="/en/2019/08/03/coursera-deep-learning-module-3-week-2.html" next="/en/2019/08/04/coursera-deep-learning-module-4-week-2.html" %}

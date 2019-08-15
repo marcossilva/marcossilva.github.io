@@ -12,7 +12,7 @@ image: /assets/Course3.png
 ---
 
 {% include figure.html filename="Course3" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Structuring Machine Learning Projects" width="50%" %}
-
+{% include prevnext.html prev="/en/2019/07/31/coursera-deep-learning-module-3-week-1.html" next="/en/2019/08/04/coursera-deep-learning-module-4-week-1.html" %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -248,3 +248,5 @@ Between these two, Approach B is more of an end-to-end approach because it has d
 * [ ] Multi-task learning problem.
 * [ ] Large bias problem.
 * [ ] Problem with a high Bayes error.
+
+{% include prevnext.html prev="/en/2019/07/31/coursera-deep-learning-module-3-week-1.html" next="/en/2019/08/04/coursera-deep-learning-module-4-week-1.html" %}
