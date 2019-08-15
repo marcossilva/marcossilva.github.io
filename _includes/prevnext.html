@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="/css/prevnext.css">
+<div class="flex-container">
+{% if include.prev != None %}<a href="{{ include.prev }}" class="previous" rel="prev">&laquo; Previous</a>{% endif %}
+{% if include.next != None %}<a href="{{ include.next }}" class="next" rel="next">Next &raquo;</a>{% endif %}
+</div>
