@@ -5,10 +5,10 @@ ref: coursera-deep-learning-5-2
 lang: en
 categories: en
 tags: deep-learning lecture-notes coursera
-datePublished: 2019-08-12T02:08:00-03:00
-dateModified: 2019-08-12T02:08:00-03:00
+datePublished: 2019-08-16T01:54:00-03:00
+dateModified: 2019-08-16T01:54:00-03:00
 description: Notes of the fifth Coursera module, week 1 in the deeplearning.ai specialization
-image: /assets/course4.jpeg
+image: /assets/course5.jpeg
 ---
 
 {% include figure.html filename="course5" extension="jpeg" alt="logo of deeplearning.ai neural networks course" title="Neural Network Deeplearning.ai Logo" caption="Recurrent Neural Network" width="50%" %}
