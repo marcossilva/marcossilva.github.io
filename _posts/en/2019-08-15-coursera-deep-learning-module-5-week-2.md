@@ -24,7 +24,8 @@ MathJax.Hub.Config({
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-{% include prevnext.html prev="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html"  %}
+{% include prevnext.html prev="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html" 
+next="/en/2019/08/17/coursera-deep-learning-module-5-week-3.html" %}
 ## Word Representation
 
 One hot vectors works well for small vocabularies and with words that have no strong correlation with any other. Word embeddings allows the dimensions of the representations used in the words to be much denser and to represent these relations better.
@@ -177,4 +178,5 @@ Which of these statements are correct? Check all that apply.
 * [ ] $m_1$ << $m_2$
 
 
-{% include prevnext.html prev="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html"  %}
+{% include prevnext.html prev="/en/2019/08/12/coursera-deep-learning-module-5-week-1.html" 
+next="/en/2019/08/17/coursera-deep-learning-module-5-week-3.html" %}
