@@ -108,15 +108,15 @@ Paper: {% include link.html href="https://arxiv.org/pdf/1311.2524.pdf" title="Ri
 3.You are working on a factory automation task. Your system will see a can of soft-drink coming down a conveyor belt, and you want it to take a picture and decide whether (i) there is a soft-drink can in the image, and if so (ii) its bounding box. Since the soft-drink can is round, the bounding box is always square, and the soft drink can always appears as the same size in the image. There is at most one soft drink can in each image. Here are some typical images in your training set:(**Note** As the cans all have the same size there's no gain in learning this parameter as well, therefore $b_h$ , $b_w$ don't have much use in this case)
 
 * [ ] Logistic unit (for classifying if there is a soft-drink can in the image)
-* [X] Logistic unit, $b_x$ and $b_y$
-* [ ] Logistic unit, $b_x$, $b_y$, $b_h$ (since $b_w$ = $b_h$ )
+* [ ] Logistic unit, $b_x$ and $b_y$
+* [X] Logistic unit, $b_x$, $b_y$, $b_h$ (since $b_w$ = $b_h$ )
 * [ ] Logistic unit, $b_x$, $b_y$, $b_h$ , $b_w$
 
 4.If you build a neural network that inputs a picture of a person’s face and outputs N landmarks on the face (assume the input image always contains exactly one face), how many output units will the network have? (**Note**: It's 3N on the output because you'll need to output the x, y and probability)
 
 * [ ] N
-* [ ] 2N
-* [X] 3N
+* [X] 2N
+* [ ] 3N
 * [ ] $N^2$
 
 5.When training one of the object detection systems described in lecture, you need a training set that contains many pictures of the object(s) you wish to detect. However, bounding boxes do not need to be provided in the training set, since the algorithm can learn to detect the objects by itself.
@@ -133,8 +133,8 @@ Paper: {% include link.html href="https://arxiv.org/pdf/1311.2524.pdf" title="Ri
 
 8.What is the IoU between these two boxes? The upper-left box is 2x2, and the lower-right box is 2x3. The overlapping region is 1x1.
 * [ ] 1/6
-* [ ] 1/9
-* [X] 1/10
+* [X] 1/9
+* [ ] 1/10
 * [ ] None of the above
 
 9.Suppose you run non-max suppression on the predicted boxes above. The parameters you use for non-max suppression are that boxes with probability $\leq$ 0.4 are discarded, and the IoU threshold for deciding if two boxes overlap is 0.5. How many boxes will remain after non-max suppression?

@@ -127,7 +127,7 @@ If we use the hidden layer l to measure the style. We would like to define style
 * [X] False
 
 4.Which of the following is a correct definition of the triplet loss? Consider that $\alpha > 0$. (We encourage you to figure out the answer from first principles, rather than just refer to the lecture.)
-* [X] $max(\lvert \lvert f(A)-f(P) \rvert \rvert^2 - \lvert \lvert f(A)-f(N)\rvert \rvert^2 - \alpha, 0)$
+* [ ] $max(\lvert \lvert f(A)-f(P) \rvert \rvert^2 - \lvert \lvert f(A)-f(N)\rvert \rvert^2 - \alpha, 0)$
 * [ ] $max(\lvert \lvert f(A)-f(N) \rvert \rvert^2 - \lvert \lvert f(A)-f(P)\rvert \rvert^2 - \alpha, 0)$
 * [X] $max(\lvert \lvert f(A)-f(P) \rvert \rvert^2 - \lvert \lvert f(A)-f(N)\rvert \rvert^2 + \alpha, 0)$
 * [ ] $max(\lvert \lvert f(A)-f(N) \rvert \rvert^2 - \lvert \lvert f(A)-f(P)\rvert \rvert^2 + \alpha, 0)$

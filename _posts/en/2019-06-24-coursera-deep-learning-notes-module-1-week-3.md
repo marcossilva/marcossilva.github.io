@@ -186,7 +186,7 @@ What will be B.shape? (If you’re not sure, feel free to run this in python to 
 10. In the same network as the previous question, what are the dimensions of $Z^{[1]}$ and $A^{[1]}$?
 	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (1,4)
 	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,1)
-	* [X] $Z^{[1]}$ and $A^{[1]}$ are (4,2)
-	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,m)
+	* [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,2)
+	* [X] $Z^{[1]}$ and $A^{[1]}$ are (4,m)
 
 {% include prevnext.html prev="/en/2019/06/22/coursera-deep-learning-notes-module-1-week-2.html" next="/en/2019/06/24/coursera-deep-learning-notes-module-1-week-4.html" %}

@@ -80,8 +80,8 @@ The basic ideas of deep learning have been around for decades but why the sudden
 
 3. Question 3: Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.) IDEA->CODE->EXPERIMENT
  - [X] Being able to try out ideas quickly allows deep learning engineers to iterate more quickly.
- - [ ] Faster computation can help speed up how long a team takes to iterate to a good idea.
- - [X] It is faster to train on a big dataset than a small dataset.
+ - [X] Faster computation can help speed up how long a team takes to iterate to a good idea.
+ - [ ] It is faster to train on a big dataset than a small dataset.
  - [X] Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).
 
 4. Question 4: When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?

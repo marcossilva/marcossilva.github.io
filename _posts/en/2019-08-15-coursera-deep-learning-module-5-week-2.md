@@ -140,8 +140,8 @@ Then even if the word “ecstatic” does not appear in your small training set,
 
 
 5.Let EE be an embedding matrix, and let $o_{1234}$ be a one-hot vector corresponding to word 1234. Then to get the embedding of word 1234, why don’t we call E * $o_{1234}$ in Python?
-* [ ] It is computationally wasteful.
-* [X] The correct formula is $E^T* o_{1234}$
+* [X] It is computationally wasteful.
+* [ ] The correct formula is $E^T* o_{1234}$
 * [ ] This doesn’t handle unknown words (<UNK>).
 * [ ] None of the above: calling the Python snippet as described above is fine.
 
@@ -168,8 +168,8 @@ Which of these statements are correct? Check all that apply.
 
 $min \sum_{i=1}^{10k} \sum_{j=1}^{10k} f(X_{ij}) (\theta_{i}^{T} e_j + b_i - b_j^{\'} - log X_{ij})^2$
 Which of these statements are correct? Check all that apply.
-* [X] $\theta_i$ and $e_j$ should be initialized to 0 at the beginning of training.
-* [ ] $\theta_i$ and $e_j$ should be initialized randomly at the beginning of training.
+* [ ] $\theta_i$ and $e_j$ should be initialized to 0 at the beginning of training.
+* [X] $\theta_i$ and $e_j$ should be initialized randomly at the beginning of training.
 * [X] $X_{ij}$ is the number of times word i appears in the context of word j.
 * [X] The weighting function $f(.)$ must satisfy $f(0) = 0$
 

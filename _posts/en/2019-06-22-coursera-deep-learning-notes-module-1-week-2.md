@@ -291,8 +291,8 @@ c = np.dot(a,b)
 ```
 What is the shape of c?
  - [ ] Te computation cannot happen because the sizes don't match. It's going to be "Error"!
- - [X] c.shape = (12288, 45)
- - [ ] c.shape = (12288, 150)
+ - [ ] c.shape = (12288, 45)
+ - [X] c.shape = (12288, 150)
  - [ ] c.shape = (150,150)
 
 8. Consider the following code snippet:

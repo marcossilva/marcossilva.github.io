@@ -150,8 +150,8 @@ Has high accuracy
 Runs quickly and takes only a short time to classify a new image.
 Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
 Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
-* [ ] True
-* [X] False
+* [X] True
+* [ ] False
 
 2.After further discussions, the city narrows down its criteria to:
 
@@ -255,7 +255,7 @@ Human-level performance	0.10%
 Training set error	0.05%
 Dev set error	0.05%
 What can you conclude? (Check all that apply.)
-* [ ] It is now harder to measure avoidable bias, thus progress will be slower going forward.
+* [X] It is now harder to measure avoidable bias, thus progress will be slower going forward.
 * [ ] This is a statistical anomaly (or must be the result of statistical noise) since it should not be possible to surpass human-level performance.
 * [X] If the test set is big enough for the 0.05% error estimate to be accurate, this implies Bayes error is ≤0.05
 * [ ] With only 0.09% further progress to make, you should quickly be able to close the remaining gap to 0%

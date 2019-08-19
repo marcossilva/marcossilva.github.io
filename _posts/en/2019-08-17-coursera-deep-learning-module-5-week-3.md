@@ -145,8 +145,8 @@ Given an audio clip input and a trigger word we would like that the output of th
 
 ## Quiz
 1.Consider using this encoder-decoder model for machine translation. This model is a “conditional language model” in the sense that the encoder portion (shown in green) is modeling the probability of the input sentence xx.
-* [X] True
-* [ ] False
+* [ ] True
+* [X] False
 
 2.In beam search, if you increase the beam width BB, which of the following would you expect to be true? Check all that apply.
 * [X] Beam search will run more slowly.

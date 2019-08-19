@@ -111,10 +111,10 @@ It's basically stacked recurrent units. A standard RNN could output on each step
 ## Quiz
 
 1.Suppose your training examples are sentences (sequences of words). Which of the following refers to the j^{th} word in the i^{th} training example?
- * [ ] $x^{\(i\)\<j\>}$
+ * [X] $x^{\(i\)\<j\>}$
  * [ ] $x^{\<i\>\(j\)}$
  * [ ] $x^{\(j\)\<i\>}$
- * [X] $x^{\<j\>\(i\)}$
+ * [ ] $x^{\<j\>\(i\)}$
 
 2.Consider this RNN. This specific type of architecture is appropriate when:
 * [X] $T_x = T_y$

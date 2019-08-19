@@ -134,9 +134,9 @@ Which of the following statements are True? (Check all that apply).
 	* [ ] $b^{[2]}$ will have shape (1, 1)
 	* [ ] $W^{[2]}$ will have shape (3, 1)
 	* [X] $b^{[2]}$ will have shape (3, 1)
-	* [X] $W^{[3]}$ will have shape (3, 1)
+	* [ ] $W^{[3]}$ will have shape (3, 1)
 	* [X] $b^{[3]}$ will have shape (1, 1)
-	* [ ] $W^{[3]}$ will have shape (1, 3)
+	* [X] $W^{[3]}$ will have shape (1, 3)
 	* [ ] $b^{[3]}$ will have shape (3, 1)
 
 10. Whereas the previous question used a specific network, in the general case what is the dimension of W^{[l]}, the weight matrix associated with layer ll?
