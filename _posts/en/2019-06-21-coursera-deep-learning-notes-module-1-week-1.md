@@ -85,8 +85,8 @@ The basic ideas of deep learning have been around for decades but why the sudden
  - [X] Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).
 
 4. Question 4: When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?
- - [X] True
- - [ ] False
+ - [ ] True
+ - [X] False
 
 5. Question 5: Which one of these plots represents a ReLU activation function?
  - [ ] Figure 1 (Sigmoid)
