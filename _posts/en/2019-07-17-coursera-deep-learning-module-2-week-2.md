@@ -183,10 +183,10 @@ Say you use an exponentially weighted average with $\beta = 0.5β=0.5$ to track 
 * [ ] $\alpha = 0.95^t \alpha_0$
 
 7. You use an exponentially weighted average on the London temperature dataset. You use the following to track the temperature: $v_{t} = \beta v_{t-1} + (1-\beta)\theta_t$. The red line below was computed using $\beta = 0.9$. What would happen to your red curve as you vary $\beta$? (Check the two that apply)
-* [X] Decreasing $\beta$ will shift the red line slightly to the right.
-* [ ] Increasing $\beta$ will shift the red line slightly to the right.
-* [ ] Decreasing $\beta$ will create more oscillation within the red line.
-* [X] Increasing $\beta$ will create more oscillations within the red line.
+* [ ] Decreasing $\beta$ will shift the red line slightly to the right.
+* [X] Increasing $\beta$ will shift the red line slightly to the right.
+* [X] Decreasing $\beta$ will create more oscillation within the red line.
+* [ ] Increasing $\beta$ will create more oscillations within the red line.
 
 8. Consider this figure. These plots were generated with gradient descent; with gradient descent with momentum ($\beta$ = 0.5) and gradient descent with momentum ($\beta$ = 0.9). Which curve corresponds to which algorithm? (**Note**: On the equation $v_t = \beta v_{t-1}  (1 - \beta) v_t$ as greater is the beta less variation we will see on the function. With a large beta the less varying function is the (3). Large betas means considering more the past and less the actual measurement. Small beta is prone to be noiser as it consider a shorter span of info to give the equation.)
 * [ ] (1) is gradient descent. (2) is gradient descent with momentum (large $\beta$) . (3) is gradient descent with momentum (small $\beta$)
