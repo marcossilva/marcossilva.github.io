@@ -6,7 +6,7 @@ lang: pt
 categories: 
 tags: cursos
 datePublished: 2019-09-15T19:33:00-03:00
-dateModified: 2019-09-15T19:33:00-03:00
+dateModified: 2019-10-23T13:48:00-03:00
 description: Muitos amigos e pessoas vem me perguntar o que devem estudar para entrar na área de Data Science e eu acabo dando orientações personalizadas baseadas no que eu conheço das pessoas. Mas minhas orientações seguem uma receita de bolo com algumas fontes e alguns conteúdos que sempre se repetem. Aqui resumi alguns conteúdos que podem ser úteis para várias pessoas.
 
 ---
@@ -74,7 +74,7 @@ Outra solução para se posicionar na área é montar um portifólio com os proj
 
 ### Cursos introdutórios e de matemática
 
-O {% include link.html href="https://pt.khanacademy.org/" title="Khan Academy | Cursos, aulas e prática on-line gratuitos" text="Khan Academy"%}  tem um excelente material pra quem precisa revisar a **matemática**, a **álgebra linear** e a **estatística**. Stanford também oferece na plataforma deles cursos de {% include link.html href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about" title="Statistical Learning" text="estatística"%} estatística com certificação.
+O {% include link.html href="https://pt.khanacademy.org/" title="Khan Academy | Cursos, aulas e prática on-line gratuitos" text="Khan Academy"%}  tem um excelente material pra quem precisa revisar a **matemática**, a **álgebra linear** e a **estatística**. Stanford também oferece na plataforma deles cursos de {% include link.html href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about" title="Statistical Learning" text="estatística"%} com certificação.
 
 
 No Coursera o {% include link.html href="https://www.coursera.org/specializations/mathematics-machine-learning" title="Mathematics for Machine Learning Specialization" text="Mathematics for Machine Learning Specialization"%}, o {% include link.html href="https://www.coursera.org/professional-certificates/ibm-data-science" title="IBM Data Science Professional Certificate" text="IBM Data Science Professional Certificate"%} e o {% include link.html href="https://www.coursera.org/specializations/jhu-data-science" title="Data Science Specialization by Johns Hopkins University" text="Data Science Specialization by Johns Hopkins University"%} são cursos que cobrem bem os tópicos básicos de **análise de dados**, **programação em python**, **visualização de dados** e **modelos simples de machine learning**.
