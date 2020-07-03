@@ -25,7 +25,7 @@ feed:
   en: /feed-en.xml
   pt: /feed-pt.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mleal.ml" # the base hostname & protocol for your site
+url: "https://marcossilva.github.io" # the base hostname & protocol for your site
 twitter_username: marcospedro
 twitter:
   username: marcospedro

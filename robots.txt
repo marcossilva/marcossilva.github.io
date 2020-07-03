@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mleal.ml/sitemap.xml
-Sitemap: https://mleal.ml/sitemap_backup.xml
+Sitemap: https://marcossilva.github.io/sitemap.xml
+Sitemap: https://marcossilva.github.io/sitemap_backup.xml
