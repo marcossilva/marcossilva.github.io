@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coursera NLP Module 1 Week 3 Notes"
-ref: coursera-deep-learning-1-3
+ref: coursera-nlp-1-3
 lang: en
 categories: en
 tags: deep-learning lecture-notes coursera nlp
@@ -45,12 +45,12 @@ With PCA we can visualize higher dimension vector in 2 or 3 dimensions. PCA is a
 
 ## Ungraded Lab: Manipulating word embeddings
 
-[Graded Lab](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_01_Numpy.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization//Ungraded%20Labs/NLP_C1_W3_01_Numpy.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_01_Numpy.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization//Ungraded%20Labs/NLP_C1_W3_01_Numpy.ipynb)
 
 ## Ungraded Lab: Another explanation about PCA
 
-[Graded Lab](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_02_WordEmbeddings.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_02_WordEmbeddings.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_02_WordEmbeddings.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W3_02_WordEmbeddings.ipynb)
 
 ## Programming Assignment: Assignment: Word Embeddings
 
-[Graded Lab](/assets/notebooks/NLP_specialization/Solved/C1_W3_Assignment.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Solved/C1_W3_Assignment.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Solved/C1_W3_Assignment.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Solved/C1_W3_Assignment.ipynb)
