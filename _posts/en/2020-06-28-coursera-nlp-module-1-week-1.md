@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coursera NLP Module 1 Week 1 Notes"
-ref: coursera-deep-learning-1-1
+ref: coursera-nlp-1-1
 lang: en
 categories: en
 tags: deep-learning lecture-notes coursera nlp
@@ -49,7 +49,7 @@ Now, given that the only classes are positive and negative it's possible to outp
 
 ## Natural Language preprocessing
 
-[Ungraded Lab 1](/assets/notebooks/NLP_specialization/Ungraded Labs/NLP_C1_W1_01_Preprocessing.ipynb) [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded Labs/NLP_C1_W1_01_Preprocessing.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W1_01_Preprocessing.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W1_01_Preprocessing.ipynb)
 
 ## Putting it All Together
 Pipeline to extract the features for a set of tweets.
@@ -58,7 +58,7 @@ Pipeline to extract the features for a set of tweets.
 
 ## Visualizing word frequencies
 
-[Ungraded Lab 2](/assets/notebooks/NLP_specialization/Ungraded Labs/NLP_C1_W1_02_WordFreqs.ipynb) [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded Labs/NLP_C1_W1_02_WordFreqs.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W1_02_WordFreqs.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Ungraded%20Labs/NLP_C1_W1_02_WordFreqs.ipynb)
 
 ## Logistic Regression: Testing
 
@@ -78,4 +78,4 @@ The first term focus on how much it agrees with the positive data classification
 
 ## Assignment: Logistic Regression
 
-[Graded Lab](/assets/notebooks/NLP_specialization/Solved/C1_W1_SentimentAnalysis_logregression.ipynb) [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Solved/C1_W1_SentimentAnalysis_logregression.ipynb)
+[Notebook](/assets/notebooks/NLP_specialization/Solved/C1_W1_SentimentAnalysis_logregression.ipynb) / [HTML](https://github.com/marcossilva/marcossilva.github.io/blob/master/assets/notebooks/NLP_specialization/Solved/C1_W1_SentimentAnalysis_logregression.ipynb)
